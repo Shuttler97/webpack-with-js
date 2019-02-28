@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require("webpack");
 
 module.exports = {
     entry: {
@@ -20,6 +21,10 @@ module.exports = {
         port: 9000
     },
     plugins: [
+        new webpack.ProvidePlugin({
+            $:"jquery",
+            jQuery:"jquery"
+        }),
         new HtmlWebpackPlugin({
             path: path.join(__dirname, "../dist/"),
             filename: "index.html",
