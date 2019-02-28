@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "cleanup": "rimraf dist",
-    "watch": "npm run cleanup && webpack-dev-server --config webpack/webpack.dev.js --watch",
-    "dev": "npm run cleanup && webpack --config webpack/webpack.dev.js",
-    "prod": "npm run cleanup && webpack --config webpack/webpack.prod.js"
+    "local-site-dev-server": "npm run cleanup && webpack-dev-server --config webpack/webpack.dev.js --watch",
+    "build:dev": "npm run cleanup && webpack --config webpack/webpack.dev.js",
+    "build:prod": "npm run cleanup && webpack --config webpack/webpack.prod.js"
   },
   "author": "",
   "license": "ISC",
