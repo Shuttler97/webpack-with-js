@@ -33,5 +33,13 @@ module.exports = {
             chunksSortMode: "dependency",
             inject: 'head'
         })
-    ]
+    ],
+    module: {
+        rules:[
+            {
+                test:/\.(s*)css$/,
+                use:['style-loader','css-loader', 'sass-loader']
+            }
+        ]
+    }
 };

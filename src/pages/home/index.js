@@ -1,3 +1,5 @@
+import "../../assets/style/home.scss";
+
 $(document).ready(() => {
     console.log("Home page loaded!!");
     let welcomeTag = document.getElementById("welcome");
