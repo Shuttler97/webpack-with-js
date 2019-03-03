@@ -1,3 +1,6 @@
+@import "../variables/class";
+
 h1 {
-  color: #def;
+  color: $color-secondary;
+  font-family: $lato;
 }
