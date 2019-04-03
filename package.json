@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cleanup": "rimraf dist",
-    "local-site-dev-server": "npm run cleanup && webpack-dev-server --config webpack/webpack.dev.js --watch",
+    "serve": "npm run cleanup && webpack-dev-server --config webpack/webpack.dev.js --watch",
     "build:dev": "npm run cleanup && webpack --config webpack/webpack.dev.js",
     "build:prod": "npm run cleanup && webpack --config webpack/webpack.prod.js"
   },
