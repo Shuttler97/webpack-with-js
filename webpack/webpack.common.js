@@ -1,5 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+const CopyPlugin = require('copy-webpack-plugin');
 const webpack = require("webpack");
 
 module.exports = {
@@ -22,8 +23,8 @@ module.exports = {
     },
     plugins: [
         new webpack.ProvidePlugin({
-            $:"jquery",
-            jQuery:"jquery"
+            $: "jquery",
+            jQuery: "jquery"
         }),
         new HtmlWebpackPlugin({
             path: path.join(__dirname, "../dist/"),
@@ -32,13 +33,17 @@ module.exports = {
             chunks: ["home", "vendor"],
             chunksSortMode: "dependency",
             inject: 'head'
-        })
+        }),
+        new CopyPlugin([
+            { from: path.join(__dirname,'../src/assets'),
+                to: path.join(__dirname,'../dist/assets')  },
+        ]),
     ],
     module: {
-        rules:[
+        rules: [
             {
-                test:/\.(s*)css$/,
-                use:['style-loader','css-loader', 'sass-loader']
+                test: /\.(s*)css$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ]
     }
