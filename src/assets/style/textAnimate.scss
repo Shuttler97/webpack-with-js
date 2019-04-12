@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Merienda');
 
 *
 {
@@ -14,30 +15,6 @@ ul
 {
   list-style: none;
 }
-
-//.container {
-//  width: 100%;
-//  margin: auto;
-//  font-weight: 900;
-//  text-transform: uppercase;
-//  text-align: center;
-//  padding: 0 0 200px;
-//}
-
-/*.take-input {
-  margin: 50px 0 0;
-}
-
-.take-input input {
-  width: 400px;
-  height: 35px;
-  padding: 0 10px;
-  border-radius: 5px;
-  border: 1px solid #ececec;
-  margin: 0 15px 0 0;
-  font-size: 15px;
-}*/
-
 a, a:link, a:visited {
   text-decoration: none;
   padding: 9px 15px;
@@ -47,12 +24,12 @@ a, a:link, a:visited {
 }
 
 .animate {
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
   position: relative;
-  left: 50%;
-  bottom: 50%;
   font-size: 50px;
-  margin: 100px 0 0;
-  //border-top: 2px solid #08F8C1;
+  font-family: 'Merienda', cursive;
 }
 
 .animate span {
