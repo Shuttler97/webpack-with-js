@@ -2,6 +2,7 @@ import "../../assets/style/home.scss";
 
 
 
+
 // Modules & helpers
 import throttle from 'lodash.throttle';
 import debounce from 'lodash.debounce';
@@ -225,3 +226,19 @@ export default {
     refresh,
     refreshHard
 };
+// $(document).ready(() => {
+//     console.log("Home page loaded!!");
+//     let welcomeTag = document.getElementById("welcome");
+//     welcomeTag.textContent = "Welcome to conatuhghgjgukgks home page";
+// });
+// $(function(){
+//     $('.repeat').click(function(){
+//         var classes =  $(this).parent().attr('class');
+//         $(this).parent().attr('class', 'animate');
+//         var indicator = $(this);
+//         setTimeout(function(){
+//             $(indicator).parent().addClass(classes);
+//         }, 20);
+//     });
+// });
+

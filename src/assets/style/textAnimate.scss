@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Merienda');
 
 *
 {
@@ -28,8 +27,8 @@ ul
   font-weight: bold;
   text-align: center;
   position: relative;
-  font-size: 50px;
-  font-family: 'Merienda', cursive;
+  font-size: 2.4vw;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .animate span {
@@ -68,7 +67,7 @@ a.repeat:hover {
 .animate span:nth-of-type(5) {
   animation-delay: .2s;
 }
-.animate span:nth-of-type(6) {
+.animate span nth-of-type(6) {
   animation-delay: .25s;
 }
 .animate span:nth-of-type(7) {

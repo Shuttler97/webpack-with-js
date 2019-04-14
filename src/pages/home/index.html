@@ -17,28 +17,60 @@
 <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<!--    <script src="index.js"></script>-->
     <title>Conatus</title>
 </head>
 <body>
 <!--<h1 id="welcome"></h1>-->
 <div class="container">
     <div class="sky">
-        <div class="text">
+             <div class="text">
+            <div class="row alignCenter">
+                <div class="col-sm-offset-2 col-sm-9">
         <div class="animate seven">
             <span>L</span><span>E</span><span>A</span><span>R</span><span>N</span> &nbsp;
             <span>C</span><span>R</span><span>E</span><span>A</span><span>T</span><span>E</span>&nbsp;
             <span>I</span><span>M</span><span>P</span><span>R</span><span>O</span><span>V</span><span>I</span><span>S</span><span>E</span> &nbsp;
             <span>!!</span>
+            <h1>Learn Grow Improvise Learn Grow Improvise Learn Grow Improvise </h1>
         </div>
+        </div>
+        </div>
+        </div>
+        <div id="pageWrapper">
+            <div class="wave">&nbsp;</div>
+            <div class="wave1">&nbsp;</div>
+            <div class="scrolls">
+                <div class="Text">
+<!--                    <span>Waves</span>-->
+                </div>
+            </div>
         </div>
         <div class="stars1"></div>
         <div class="stars12"></div>
         <div class="stars2"></div>
         <div class="stars21"></div>
         <div class="shooting-stars"></div>
-        <div class="wave"></div>
+        <h2 class="head">Team Conatus</h2>
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+
+        <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+                <ul>
+                    <li ><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 </div>
+<<<<<<< HEAD
 
 <!--PORTFOLIO STARTS HERE-->
 <div id="portfolio">
@@ -606,13 +638,19 @@
     </div>
 </div>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    $('#toggle').click(function() {
+        console.log('cl');
+        $(this).toggleClass('active');
+        $('#overlay').toggleClass('open');
+    });
+    </script>
+
 <script type="text/javascript">
     AOS.init({
         duration:1000,
-        offset:200,
-    });
+        offset:200,})
 </script>
-</body>
 <script>
     function events() {
         // document.getElementById('event').style.display = 'block';
@@ -640,4 +678,5 @@
         document.getElementById('shut1').style.display = 'none';
     }
 </script>
+</body>
 </html>
