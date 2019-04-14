@@ -1,0 +1,96 @@
+@import "../../assets/variables/_colors.scss";
+.dev-team{
+  padding:30px 0 40px;
+  background:white;
+  text-align:center;
+  overflow:hidden;
+  position:relative;
+}
+.dev-team .pic{
+  display:inline-block;
+  width:130px;
+  height:130px;
+  margin-bottom:50px;
+  position:relative;
+  z-index:1;
+}
+.dev-team .pic:before{
+  content:"";
+  width:100%;
+  background:#330740;
+  position:absolute;
+  bottom:135%;
+  right:0;
+  left:0;
+  transform:scale(3);
+  transition: all 0.3s linear 0s;
+}
+.dev-team:hover .pic:before{
+  height:100%
+}
+.dev-team .pic:after{
+  content:"";
+  width:100%;
+  height:100%;
+  border-radius:50%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:1;
+}
+.dev-team .pic img{
+  width:100%;
+  height:auto;
+  border-radius:50%;
+  transform:scale(1);
+  transition:all 0.9s ease 0s;
+}
+.dev-team:hover .pic img{
+  box-shadow:0 0 0 0 white;
+  transform:scale(0.7);
+}
+.dev-team .dev-content{
+  margin:30px;
+}
+.dev-team .dev-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #212121;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.dev-team .dev-post{
+  display:block;
+  font-size:15px;
+  color:black;
+  text-transform:capitalize;
+}
+.dev-team .dev-social{
+  width:100%;
+  padding:0;
+  margin:0;
+  background:#330740;
+  position:absolute;
+  bottom:-180px;
+  left:0;
+  transition: all 0.5s ease 0s;
+}
+.dev-team:hover .dev-social{
+  bottom:0;
+}
+.dev-team .dev-social li{
+  display:inline-block;
+}
+.dev-team .dev-social li a{
+  display:block;
+  padding:10px;
+  font-size:17px;
+  color:white;
+  transition:all 0.3s ease 0s;
+}
+.dev-team .dev-social li a:hover {
+  color: $light-black;
+  background: $light-grey;
+  text-decoration: none;
+}

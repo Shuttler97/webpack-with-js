@@ -1,0 +1,91 @@
+//<====================events===============>
+.container8{
+  position: relative!important;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#events{
+  display: none;
+}
+.our-events{
+  position: relative;
+  width: 300px;
+  height: 400px;
+  border-radius: 8%;
+  overflow:hidden;
+  margin-left: 20px;
+  animation:animateright 3.5s;
+  background: grey;
+}
+.our-events1{
+  animation:animationright 3.5s;
+  position:relative;
+}
+.portfolio1{
+  position: relative;
+  animation:animatebottom 3s;
+}
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+.our-events .eventinput,
+.toggle{
+  position: absolute;
+  width:  50px;
+  height: 50px;
+  bottom: 20px;
+  right:20px;
+  outline:none;
+  z-index:10;
+}
+.our-events .eventinput{
+  opacity:0;
+}
+.toggle{
+  pointer-events:none;
+  border-radius:50%;
+  background:#ffffff;
+  transition:0.5s;
+  text-align:center;
+  line-height:50px;
+  font-size:36px;
+  box-shadow:0 0 0 0 #330740;
+}
+.our-events .eventinput:checked ~ .toggle{
+  box-shadow:0 0 0 500px #330740;
+  transform:rotate(225deg);
+}
+.our-events .imgbx, .details{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+.details{
+  padding:20px;
+  box-sizing:border-box;
+  z-index:11;
+  pointer-events:none;
+  transition:0.5s;
+  opacity:0;
+}
+.our-events .eventinput:checked ~ .details{
+  opacity:1;
+  transition-delay:0.5s;
+}
+.details h2{
+  margin-bottom:5px;
+  color:black;
+}
+.details p{
+  margin:0;
+  padding:0;
+  color:#ffffff;
+}
+.our-events .imgbx img{
+  width:100%;
+  height:auto;
+  margin-left: 0;
+}

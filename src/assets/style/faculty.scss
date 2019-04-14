@@ -1,0 +1,36 @@
+@import "../../assets/variables/_colors.scss";
+.card{
+  padding-left: 20%;
+  box-shadow: 0 8px 12px 0 rgba(250, 247, 247, 0.3) ;
+  transition: 0.3s;
+  width:70%;
+  height: 100%;
+  background: #fff;
+  text-align: center;
+  font-size:14px;
+  font-family:sans-serif;
+}
+#faculty{
+  display: none;
+}
+.card:hover
+{
+  box-shadow:0 12px 20px 0 rgba(250, 247, 247, 0.4);
+  transform: scale(1.1);
+}
+.faculty-animation{
+  position:relative;
+  animation: animateleft 3.5s;
+}
+
+@keyframes animateleft {
+  from{
+    left:-300px;
+    opacity:0;
+  }
+  to{
+    left:0;
+    opacity:1;
+  }
+
+}

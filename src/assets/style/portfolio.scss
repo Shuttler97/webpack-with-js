@@ -1,0 +1,61 @@
+
+ .image {
+   opacity: 1;
+   display: block;
+   height: auto;
+   transition: .5s ease;
+   backface-visibility: hidden;
+ }
+.event,
+.magazine,
+.birthday{
+  position: relative;
+  width:auto;
+  height:auto;
+}
+ .middle,
+ .middle2{
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 55%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
+ }
+ .middle1 {
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 55%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-align: center;
+ }
+
+.event:hover .image {
+  opacity: 0.1;
+}
+ .event:hover .middle {
+  opacity: 1;
+}
+ .magazine:hover .image {
+   opacity: 0.1;
+ }
+ .magazine:hover .middle1 {
+   opacity: 1;
+ }
+ .birthday:hover .image {
+   opacity: 0.1;
+ }
+ .birthday:hover .middle2 {
+   opacity: 1;
+ }
+
+
+.container1{
+  background-color: #F5F5F5;
+}
+

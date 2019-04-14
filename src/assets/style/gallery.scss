@@ -1,0 +1,37 @@
+.gallery-h1{
+  position: relative;
+  //margin-bottom: 5%;
+  font-size: 60px;
+  //font-family:'oswald', sans-serif;
+  color:#F4F2F5;
+  text-align: center;
+}
+.gallery{
+  display: flex;
+  flex-direction: row;
+  width:90%;
+  height: 60vh;
+  margin-left:4%;
+  margin-top:6vh;
+  margin-bottom: 10vh;
+}
+.item{
+  flex:1;
+  height:100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition:flex 0.8s ease;
+
+}
+.item:hover{
+  flex:15 ;
+}
+.container4{
+  display: block;
+  position: relative;
+  //width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color:#330740;
+}

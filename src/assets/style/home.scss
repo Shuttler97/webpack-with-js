@@ -1,8 +1,24 @@
 @import "../variables/class";
 @import "animate";
 @import "textAnimate";
+@import "portfolio";
+@import "about";
+@import "gallery";
+@import "contact";
+@import "coordinators";
+@import "faculty";
+@import "magazine";
+@import "event";
+@import 'core';
+@import 'easing';
+@import 'animations';
+@import "development";
 
 h1 {
   color: $color-secondary;
   font-family: $lato;
+}
+#shut,
+#shut1{
+  display:none;
 }
