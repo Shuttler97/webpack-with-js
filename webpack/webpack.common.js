@@ -1,6 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CopyPlugin = require('copy-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require("webpack");
 
 module.exports = {
@@ -34,7 +34,7 @@ module.exports = {
             chunksSortMode: "dependency",
             inject: 'head'
         }),
-        new CopyPlugin([
+        new CopyWebpackPlugin([
             { from: path.join(__dirname,'../src/assets'),
                 to: path.join(__dirname,'../dist/assets')  },
         ]),

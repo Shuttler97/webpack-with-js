@@ -1,8 +1,11 @@
 @import "../variables/class";
 @import "animate";
 @import "textAnimate";
+@import "topNav";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Domine');
+@import "wave";
 
-h1 {
-  color: $color-secondary;
-  font-family: $lato;
+body {
+  font-family: 'Domine', serif;
 }
