@@ -20,8 +20,42 @@
 <!--    <script src="index.js"></script>-->
     <title>Conatus</title>
 </head>
-<body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+
+
 <!--<h1 id="welcome"></h1>-->
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onclick="openNav()">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div id="myNav" class="overlay">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="navbar-collapse collapse">
+            <div class="overlay-content">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Scrapbook</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Development Team</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!--<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>-->
+</nav>
+
+
 <div class="container">
     <div class="sky">
              <div class="text">
@@ -37,40 +71,45 @@
         </div>
         </div>
         </div>
-        <div id="pageWrapper">
-            <div class="wave">&nbsp;</div>
-            <div class="wave1">&nbsp;</div>
-            <div class="scrolls">
-                <div class="Text">
-<!--                    <span>Waves</span>-->
-                </div>
-            </div>
-        </div>
+        <!--<div id="pageWrapper">-->
+            <!--<div class="wave">&nbsp;</div>-->
+            <!--<div class="wave1">&nbsp;</div>-->
+            <!--<div class="scrolls">-->
+                <!--<div class="Text">-->
+<!--&lt;!&ndash;                    <span>Waves</span>&ndash;&gt;-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
         <div class="stars1"></div>
         <div class="stars12"></div>
         <div class="stars2"></div>
         <div class="stars21"></div>
         <div class="shooting-stars"></div>
-        <h2 class="head">Team Conatus</h2>
-        <div class="button_container" id="toggle">
-            <span class="top"></span>
-            <span class="middle"></span>
-            <span class="bottom"></span>
-        </div>
+        <!--<h2 class="head">Team Conatus</h2>-->
+        <!--<div class="button_container" id="toggle">-->
+            <!--<span class="top"></span>-->
+            <!--<span class="middle"></span>-->
+            <!--<span class="bottom"></span>-->
+        <!--</div>-->
 
-        <div class="overlay" id="overlay">
-            <nav class="overlay-menu">
-                <ul>
-                    <li ><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <!--<div class="overlay" id="overlay">-->
+            <!--<nav class="overlay-menu">-->
+                <!--<ul>-->
+                    <!--<li ><a href="#">Home</a></li>-->
+                    <!--<li><a href="#">Portfolio</a></li>-->
+                    <!--<li><a href="#">About Us</a></li>-->
+                    <!--<li><a href="#">Services</a></li>-->
+                    <!--<li><a href="#">Scrapbook</a></li>-->
+                    <!--<li><a href="#">Contact</a></li>-->
+                    <!--<li><a href="#">Development Team</a></li>-->
+                <!--</ul>-->
+            <!--</nav>-->
+        <!--</div>-->
+
+
     </div>
 </div>
-<<<<<<< HEAD
+
 
 <!--PORTFOLIO STARTS HERE-->
 <div id="portfolio">
@@ -87,9 +126,9 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4">
                             <div class="event">
-                                <img src="../../assets/images/event.png" alt="Avatar" class="image" style="width:50%;margin-left: 20%">
-                                <div class="middle">
-                                    <div class="btn" onclick="events()" style="font-size:28px;font-weight:500">
+                                <div class="btn" onclick="events()" style="font-size:28px;font-weight:500">
+                                    <img src="../../assets/images/event.png" alt="Avatar" class="image" style="width:50%;margin-left: 20%">
+                                    <div class="middle">
                                         EVENTS
                                     </div>
                                 </div>
@@ -101,9 +140,9 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4">
                             <div class="magazine">
-                                <img src="../../assets/images/magzine.png" style="width: 50%;margin-left: 20%" class="image" alt="avatar">
-                                <div class="middle1">
-                                    <div class="btn" onclick="magazines()" style="font-size:28px;font-weight:500">
+                                <div class="btn" onclick="magazines()" style="font-size:28px;font-weight:500">
+                                    <img src="../../assets/images/magzine.png" style="width: 58%;margin-left: 20%" class="image" alt="avatar">
+                                    <div class="middle1">
                                         MAGAZINES
                                     </div>
                                 </div>
@@ -115,15 +154,12 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4">
                             <div class="birthday">
-                                <img src="../../assets/images/birthday.png" style="width: 50%;;margin-left: 20%" class="image" alt="avatar">
-                                <div class="middle2">
-                                    <div class="btn" style="font-size:28px;font-weight:500">
-                                        <a href="https://drive.google.com/folderview?id=1WpTj1qicIQLEJY0tnA2wzEZsZmqBfe2U" style="text-decoration:none;color:#212121">
-                                            BIRTHDAY <br>VIDEO
-                                        </a>
-
+                                <a href="https://drive.google.com/folderview?id=1WpTj1qicIQLEJY0tnA2wzEZsZmqBfe2U" target="_blank" style="text-decoration:none;color:#212121">
+                                    <img src="../../assets/images/birthday.png" style="width: 50%;;margin-left: 20%" class="image" alt="avatar">
+                                    <div class="middle2" style="font-size: 28px;font-weight:500">
+                                        BIRTHDAY
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -133,21 +169,22 @@
     </div>
 </div>
 
-<!--Events starts here-->
 
-<i style="font-size: 30px;margin-left: 90%" class="btn" onclick="shut() " id="shut">X</i>
+<!--Events starts here-->
+<div class="fg" style="background-color: #F5F5F5">
+<i style="font-size: 30px;margin-left: 90%;background-color: #F5F5F5;" class="btn" onclick="shut() " id="shut"><img src="../../assets/images/cross.png" style="width:20%"></i>
 <div id="events">
     <div class="container8" >
         <div class="row">
             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" data-aos="fade-left">
                 <div class="our-events1">
-                    <h1 style="color: #212121;margin-bottom: 3%; font-size: 3vw;font-weight:600;margin-top:-1%">
+                    <h1 style="color: #212121;margin-bottom: 3%; font-size: 3vw;font-weight:500;margin-top:-1%">
                         EVENTS
                     </h1>
                 </div>
             </div>
 
-            <div style="margin-bottom: 0.6vh; width: auto;padding-left:4%;padding-bottom:4%" class="col-sm-4 col-md-2 col-lg-2" data-aos="fade-right">
+            <div style="margin-bottom: 0.6vh; width: auto;padding-left:4%;padding-bottom:4%" class="col-sm-4 col-md-2 col-lg-2 col-xs-2" data-aos="fade-right">
                 <div class="our-events">
                     <input type="checkbox" name="" class="eventinput">
                     <div class="toggle">+</div>
@@ -164,7 +201,7 @@
                     </div>
                 </div>
             </div>
-            <div style="margin-bottom: 0.6vh; width: auto;padding-left:4%;padding-bottom:4%" class="col-sm-4 col-md-2 col-lg-2" data-aos="faderight">
+            <div style="margin-bottom: 0.6vh; width: auto;padding-left:4%;padding-bottom:4%" class="col-sm-4 col-md-2 col-lg-2 col-xs-2" data-aos="faderight">
                 <div class="our-events">
                     <input type="checkbox" name="" class="eventinput">
                     <div class="toggle">+</div>
@@ -181,7 +218,7 @@
                     </div>
                 </div>
             </div>
-            <div style="margin-bottom: 0.6vh; width: auto;padding-left:4%;padding-bottom:4%" class="col-sm-4 col-md-2 col-lg-2" data-aos="fade-right">
+            <div style="margin-bottom: 0.6vh; width: auto;padding-left:4%;padding-bottom:4%" class="col-sm-4 col-md-2 col-lg-2 col-xs-2" data-aos="fade-right">
                 <div class="our-events">
                     <input type="checkbox" name="" class="eventinput">
                     <div class="toggle">+</div>
@@ -198,7 +235,7 @@
                     </div>
                 </div>
             </div>
-            <div style="margin-bottom: 0.6vh; width: auto;padding-left:4%;padding-bottom:4%" class="col-sm-4 col-md-2 col-lg-2"data-aos="fade-right">
+            <div style="margin-bottom: 0.6vh; width: auto;padding-left:4%;padding-bottom:4%" class="col-sm-4 col-md-2 col-lg-2 col-xs-2" data-aos="fade-right">
                 <div class="our-events">
                     <input type="checkbox" name="" class="eventinput">
                     <div class="toggle">+</div>
@@ -222,8 +259,8 @@
 
 <!--Magazine starts here-->
 
-<div id = "magazines">
-    <h1 style="text-align: center;color:#212121;margin-top: 0;margin-bottom: 2%;font-weight:600">CONOSCENZA</h1>
+<div id = "magazines" style="background-color: #F5F5F5">
+    <h1 style="text-align: center;color:#212121;margin-top: 0;margin-bottom: 2%;font-weight:500">CONOSCENZA</h1>
     <section class="stretcher-wrapper">
         <div class="magazine-animation" style="padding-left:3%;padding-right:3%;padding-bottom:3% ">
             <ul class="stretcher">
@@ -236,7 +273,7 @@
                     <figure>
                         <h4>DECRYPTING THE CRYPTO</h4>
                     </figure>
-                    <a href="https://drive.google.com/file/d/1pG1tf_GZiAQpiztKNxnhj2gQYYmslHEB/view">Anchor link</a>
+                    <a href="https://drive.google.com/file/d/1pG1tf_GZiAQpiztKNxnhj2gQYYmslHEB/view" target="_blank">Anchor link</a>
                 </li>
                 <li class="stretcher-item"style="background-image:url(../../assets/images/services-2.jpg);background-size: 90%;background-repeat: no-repeat">
                     <div class="stretcher-logo">
@@ -247,7 +284,7 @@
                     <figure>
                         <h4>SPECTRUM EVOLUTION OF ERA</h4>
                     </figure>
-                    <a href="https://drive.google.com/file/d/0B5AqgCI3bchAZVRVQlg2aEV3OGM/view?usp=sharing">Anchor link</a>
+                    <a href="https://drive.google.com/file/d/0B5AqgCI3bchAZVRVQlg2aEV3OGM/view?usp=sharing" target="_blank">Anchor link</a>
                 </li>
                 <li class="stretcher-item" style="background-image:url(../../assets/images/services-3.jpg);background-size: 90%;background-repeat: no-repeat">
                     <div class="stretcher-logo">
@@ -258,7 +295,7 @@
                     <figure>
                         <h4>CONVERGENCE OF TECHNIQUE</h4>
                     </figure>
-                    <a href="https://drive.google.com/file/d/0B5AqgCI3bchAZFEtR3EtZUlPOWc/view?usp=sharing">Anchor link</a>
+                    <a href="https://drive.google.com/file/d/0B5AqgCI3bchAZFEtR3EtZUlPOWc/view?usp=sharing" target="_blank">Anchor link</a>
                 </li>
                 <li class="stretcher-item" style="background-image:url('../../assets/images/services-4.jpg');background-size: 90%;background-repeat: no-repeat">
                     <div class="stretcher-logo">
@@ -269,14 +306,14 @@
                     <figure>
                         <h4>EVOLUTION OF TECH</h4>
                     </figure>
-                    <a href="https://drive.google.com/file/d/0B5AqgCI3bchARGNjdDNvczd6ZVk/view?usp=sharing">Anchor link</a>
+                    <a href="https://drive.google.com/file/d/0B5AqgCI3bchARGNjdDNvczd6ZVk/view?usp=sharing" target="_blank">Anchor link</a>
                 </li>
                 <li class="stretcher-item more">
                     <div class="more-icon">
                         <a href="https://drive.google.com/drive/folders/0B5AqgCI3bchAVWxjSjJDcHpOT0E" style="text-decoration: none">
                             <span data-title-show="Show more" data-title-hide="+"></span></a>
                     </div>
-                    <a href="https://drive.google.com/drive/folders/0B5AqgCI3bchAVWxjSjJDcHpOT0E">Anchor link</a>
+                    <a href="https://drive.google.com/drive/folders/0B5AqgCI3bchAVWxjSjJDcHpOT0E" target="_blank">Anchor link</a>
                 </li>
             </ul>
         </div>
@@ -324,9 +361,9 @@
                             organizing a wide range of activities throughout the year.
                         </p>
                         <br>
-                        <button onclick="faculty()" class="btn btn-primary" style="background-color: white;color:black;border: 2px solid black">MENTORS</button>
-                        <a href="coordinators.html" style="text-decoration: none">
-                        <button class="btn btn-primary" style="background-color: white;color:black;border: 2px solid black">COORDINATORS</button>
+                        <button1 onclick="faculty()" class="btn" style="background-color: white;color:black;border: 2px solid black">MENTORS</button1>
+                        <a href="coordinators.html" target="_blank" style="text-decoration: none">
+                        <button1 class="btn" style="background-color: white;color:black;border: 2px solid black">COORDINATORS</button1>
                         </a>
                     </div>
                 </div>
@@ -334,11 +371,11 @@
         </div>
     </div>
 </div>
-<i style="font-size: 30px;margin-left:90%" class="btn" onclick="shut1() " id="shut1">X</i>
 
 <!--Mentors start here-->
 
-<div id="faculty">
+<div id="faculty" style="background-color: #F5F5F5">
+    <i style="font-size: 30px;margin-left:90%" class="btn" onclick="shut1() " id="shut1"><img src="../../assets/images/cross.png" style="width:20%"></i>
     <div class="container7">
         <div class="row" style="width: 100%">
             <div class="faculty-animation" data-aos="fade-right">
@@ -432,14 +469,14 @@
 <!--GALLERY-->
 
 <div class="container4">
-    <div class="row" style="width: 100%" data-aos="fade-up-right">
+    <div class="row" style="width: 100%" data-aos="fade-left">
         <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" style="margin-top: 3vh">
             <h1 class="gallery-h1">
-                GALLERY
+                Scrapbook
             </h1>
         </div>
     </div>
-    <div class="gallery" data-aos="fade-up-right">
+    <div class="gallery" data-aos="fade-left">
         <div class="item item-1" style="background-image: url('../../assets/images/gallery-1.JPG')"></div>
         <div class="item item-2" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
         <div class="item item-3" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
@@ -457,7 +494,7 @@
 
 <div class="container7">
     <div class="row" style="width: 100%">
-        <div data-aos="fade-down-right">
+        <div data-aos="fade-right">
             <h3 style="text-align: center;font-weight:500; margin-top: 4%; margin-bottom: 4%; font-family: 'Merienda', cursive;">
                 "Alone we can do so little together we can do so much." <br>
                 This is what the team stands upon. Team Conatus is the Techno-Managerial <br>
@@ -562,81 +599,105 @@
     </div>
 </div>
 </section>
-<div data-aos="fade-down-right">
-    <h1 style="text-align: center;color:#212121;margin-bottom:3vh;margin-top: 5vh;font-weight: 500">DEVELOPMENT TEAM</h1>
-    <div class="container9" style="margin-bottom: 4%;width:100%">
-        <div class="row" style="width:100%;padding-left:5%;padding-right:5%">
-            <div class="col-md-3 col-sm-6">
-                <div class="dev-team">
-                    <div class="pic">
-                        <img src="../../assets/images/1710184.jpg">
-                    </div>
-                    <div class="dev-content">
-                        <h5 class="dev-title">Manya Bhatia</h5>
-                        <span class="dev-post">Web Developer</span>
-                    </div>
-                    <ul class="dev-social">
-                        <li><a href="" class="fab fa-instagram"></a></li>
-                        <li><a href="" class="fab fa-linkedin"></a></li>
-                        <li><a href="" class="fab fa-github"></a></li>
-                        <li><a href="" class="fa fa-envelope"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="dev-team">
-                    <div class="pic">
-                        <img src="../../assets/images/1713056.jpeg">
-                    </div>
-                    <div class="dev-content">
-                        <h3 class="dev-title">Sayash Chaudhary</h3>
-                        <span class="dev-post">Web Developer</span>
-                    </div>
-                    <ul class="dev-social">
-                        <li><a href="" class="fab fa-instagram"></a></li>
-                        <li><a href="" class="fab fa-linkedin"></a></li>
-                        <li><a href="" class="fab fa-github"></a></li>
-                        <li><a href="" class="fa fa-envelope"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="dev-team">
-                    <div class="pic">
-                        <img src="../../assets/images/1731161.jpeg">
-                    </div>
-                    <div class="dev-content">
-                        <h3 class="dev-title">Shikhar Agarwal</h3>
-                        <span class="dev-post">Web Developer</span>
-                    </div>
-                    <ul class="dev-social">
-                        <li><a href="" class="fab fa-instagram"></a></li>
-                        <li><a href="" class="fab fa-linkedin"></a></li>
-                        <li><a href="" class="fab fa-github"></a></li>
-                        <li><a href="" class="fa fa-envelope"></a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6">
-                <div class="dev-team">
-                    <div class="pic">
-                        <img src="../../assets/images/1613116.jpeg">
-                    </div>
-                    <div class="dev-content">
-                        <h3 class="dev-title">Utkarsh Varshney</h3>
-                        <span class="dev-post">Web Developer</span>
-                    </div>
-                    <ul class="dev-social">
-                        <li><a href="" class="fab fa-instagram"></a></li>
-                        <li><a href="" class="fab fa-linkedin"></a></li>
-                        <li><a href="" class="fab fa-github"></a></li>
-                        <li><a href="" class="fa fa-envelope"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+<!--development team-->
+
+<!--<div class="container9" style="background-color: #3D0045">-->
+    <!--<div data-aos="fade-down">-->
+        <!--<div class="row" style="width: 100%; padding-left: 20%; padding-right:10% ">-->
+            <!--<div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" style="margin-top: 2vh">-->
+                <!--<h1 style="color: #F4F2F5;margin-bottom:3vh;margin-top: 5vh;font-weight: 500;">-->
+                    <!--DEVELOPMENT TEAM-->
+                <!--</h1>-->
+            <!--</div>-->
+            <!--<div class="col-md-2 col-sm-2">-->
+                <!--<div class="dev-team">-->
+                    <!--<div class="pic">-->
+                        <!--<img src="../../assets/images/1613008.jpeg">-->
+                    <!--</div>-->
+                <!--<div class="dev-content">-->
+                    <!--<h3 class="dev-title">Naimish<br> Verma</h3>-->
+                    <!--<span class="dev-post">Web Developer<br></span>-->
+                <!--</div>-->
+                <!--<ul class="dev-social">-->
+                    <!--<li><a href="" class="fab fa-instagram"></a></li>-->
+                    <!--<li><a href="" class="fab fa-linkedin"></a></li>-->
+                    <!--<li><a href="" class="fab fa-github"></a></li>-->
+                    <!--<li><a href="" class="fa fa-envelope"></a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+            <!--<div class="col-md-2 col-sm-2" style="margin-bottom: 3vh">-->
+                <!--<div class="dev-team">-->
+                    <!--<div class="pic">-->
+                        <!--<img src="../../assets/images/1613116.jpeg">-->
+                    <!--</div>-->
+                    <!--<div class="dev-content">-->
+                        <!--<h5 class="dev-title">Uttkarsh Varshney</h5>-->
+                        <!--<span class="dev-post">Web Developer<br></span>-->
+                    <!--</div>-->
+                    <!--<ul class="dev-social">-->
+                        <!--<li><a href="" class="fab fa-instagram"></a></li>-->
+                        <!--<li><a href="" class="fab fa-linkedin"></a></li>-->
+                        <!--<li><a href="" class="fab fa-github"></a></li>-->
+                        <!--<li><a href="" class="fa fa-envelope"></a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-2 col-sm-2">-->
+                <!--<div class="dev-team">-->
+                    <!--<div class="pic">-->
+                        <!--<img src="../../assets/images/1710184.jpg">-->
+                    <!--</div>-->
+                    <!--<div class="dev-content">-->
+                        <!--<h3 class="dev-title">Manya<br>Bhatia</h3>-->
+                        <!--<span class="dev-post">Web Developer <br> </span>-->
+                    <!--</div>-->
+                    <!--<ul class="dev-social">-->
+                        <!--<li><a href="" class="fab fa-instagram"></a></li>-->
+                        <!--<li><a href="" class="fab fa-linkedin"></a></li>-->
+                        <!--<li><a href="" class="fab fa-github"></a></li>-->
+                        <!--<li><a href="" class="fa fa-envelope"></a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-2 col-sm-2">-->
+                <!--<div class="dev-team">-->
+                    <!--<div class="pic">-->
+                        <!--<img src="../../assets/images/1713056.jpeg">-->
+                    <!--</div>-->
+                    <!--<div class="dev-content">-->
+                        <!--<h3 class="dev-title">Sayash Chaudhary</h3>-->
+                        <!--<span class="dev-post">Web Developer<br></span>-->
+                    <!--</div>-->
+                    <!--<ul class="dev-social">-->
+                        <!--<li><a href="" class="fab fa-instagram"></a></li>-->
+                        <!--<li><a href="" class="fab fa-linkedin"></a></li>-->
+                        <!--<li><a href="" class="fab fa-github"></a></li>-->
+                        <!--<li><a href="" class="fa fa-envelope"></a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-md-2 col-sm-2">-->
+                <!--<div class="dev-team">-->
+                    <!--<div class="pic">-->
+                        <!--<img src="../../assets/images/1731161.jpeg">-->
+                    <!--</div>-->
+                    <!--<div class="dev-content">-->
+                        <!--<h3 class="dev-title">Shikhar<br> Agarwal</h3>-->
+                        <!--<span class="dev-post">Web Developer<br></span>-->
+                    <!--</div>-->
+                    <!--<ul class="dev-social">-->
+                        <!--<li><a href="" class="fab fa-instagram"></a></li>-->
+                        <!--<li><a href="" class="fab fa-linkedin"></a></li>-->
+                        <!--<li><a href="" class="fab fa-github"></a></li>-->
+                        <!--<li><a href="" class="fa fa-envelope"></a></li>-->
+                    <!--</ul>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+<!--</div>-->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     $('#toggle').click(function() {
@@ -648,7 +709,7 @@
 
 <script type="text/javascript">
     AOS.init({
-        duration:1000,
+        duration:2000,
         offset:200,})
 </script>
 <script>
@@ -678,5 +739,37 @@
         document.getElementById('shut1').style.display = 'none';
     }
 </script>
+
+<!--Topbtn-->
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+<!--Navbar-->
+
+<script>
+    function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+    }
+</script>
+
 </body>
 </html>
