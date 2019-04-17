@@ -1,16 +1,16 @@
-#myBtn {
+.scrollToTop{
   display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-   background-color: #330740;
-  cursor: white;
-  cursor: pointer;
-  font-size: 18px;
-}
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+     background-color: #330740;
+    cursor: white;
+    cursor: pointer;
+    font-size: 18px;
 
-#myBtn:hover {
+}
+.scrollToTop:hover{
   background-color: black;
-  color:white;
+    color:white;
 }
