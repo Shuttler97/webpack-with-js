@@ -158,16 +158,8 @@ button:focus {
   border-bottom: 5px solid transparent;
   border-right: 5px solid $main-color;
 }
-.contact__line {
-  display: block;
-  width: 2px;
-  height: 20.4rem;
-  background-color: $main-color;
-  position: absolute;
-  left: 50%;
-  top: -10.2rem;
-  margin-left: -1px;
-}
+
+
 .contact-content {
   max-width: 1000px;
   background-color: $dark-grey;
