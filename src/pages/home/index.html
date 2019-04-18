@@ -20,6 +20,17 @@
 <!--    <script src="index.js"></script>-->
     <title>CONATUS</title>
 </head>
+<body style="overflow: hidden">
+
+
+<!--&lt;!&ndash; Preloader &ndash;&gt;-->
+<!--<div id="preloader">-->
+    <!--<div id="status">&nbsp;-->
+    <!--</div>-->
+<!--</div>-->
+
+<!--<img width="100%" src='https://unsplash.it/3000/3000/?random'>-->
+
 
 <!--SCROLL Button-->
 <button class="scrollToTop">↑</button>
@@ -28,7 +39,7 @@
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-header">
-        <a class="navbar-brand" href="#">CONATUS</a>
+        <a class="navbar-brand" href="#"><img src="../../assets/images/navtc.png" style="margin-top: -7vh"></a>
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onclick="openNav()">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -106,7 +117,7 @@
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4">
                             <div class="event">
                                 <div class="btn" onclick="events()" style="font-size:28px;font-weight:500">
-                                    <img src="../../assets/images/event.png" alt="Avatar" class="image" style="width:50%;margin-left: 20%">
+                                    <img src="../../assets/images/event.png" alt="Avatar" class="image" style="width:100%;margin-left: 20%">
                                     <div class="middle">
                                         EVENTS
                                     </div>
@@ -118,23 +129,9 @@
                 <div class="col-sm-4 col-md-4" style="margin-bottom: 10vh">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4">
-                            <div class="magazine">
-                                <div class="btn" onclick="magazines()" style="font-size:28px;font-weight:500">
-                                    <img src="../../assets/images/magzine.png" style="width: 58%;margin-left: 20%" class="image" alt="avatar">
-                                    <div class="middle1">
-                                        MAGAZINES
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 col-md-4" style="margin-bottom: 10vh">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4">
                             <div class="birthday">
                                 <a href="https://drive.google.com/folderview?id=1WpTj1qicIQLEJY0tnA2wzEZsZmqBfe2U" target="_blank" style="text-decoration:none;color:#212121">
-                                    <img src="../../assets/images/birthday.png" style="width: 50%;;margin-left: 20%" class="image" alt="avatar">
+                                    <img src="../../assets/images/birthday.png" style="width: 55%;;margin-left: 20%" class="image" alt="avatar">
                                     <div class="middle2" style="font-size: 28px;font-weight:500">
                                         BIRTHDAY
                                     </div>
@@ -143,6 +140,21 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-4 col-md-4" style="margin-bottom: 10vh">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4">
+                            <div class="magazine">
+                                <div class="btn" onclick="magazines()" style="font-size:28px;font-weight:500">
+                                    <img src="../../assets/images/magzine.png" style="width: 100%;margin-left: 20%" class="image" alt="avatar">
+                                    <div class="middle1">
+                                        MAGAZINES
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
@@ -476,7 +488,7 @@
 
 <!--GALLERY-->
 
-<div class="container4" id="gallery">
+<div class="container4" id="gallery" style="background-image:url('../../assets/images/gallery.png') ">
     <div class="row" style="width: 100%" data-aos="fade-left">
         <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" style="margin-top: 3vh">
             <h1 class="gallery-h1">
@@ -486,15 +498,15 @@
     </div>
     <div class="gallery" data-aos="fade-left">
         <div class="item item-1" style="background-image: url('../../assets/images/gallery-1.JPG')"></div>
-        <div class="item item-2" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
-        <div class="item item-3" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
+        <div class="item item-2" style="background-image: url('../../assets/images/gallery-2.jpg')"></div>
+        <div class="item item-3" style="background-image: url('../../assets/images/gallery-3.JPG')"></div>
         <div class="item item-4" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
-        <div class="item item-5" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
-        <div class="item item-6" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
-        <div class="item item-7" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
-        <div class="item item-8" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
-        <div class="item item-9" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
-        <div class="item item-10" style="background-image: url('../../assets/images/gallery-4.jpg')"></div>
+        <div class="item item-5" style="background-image: url('../../assets/images/gallery-5.JPG')"></div>
+        <div class="item item-6" style="background-image: url('../../assets/images/gallery-6.JPG')"></div>
+        <div class="item item-7" style="background-image: url('../../assets/images/gallery-7.JPG')"></div>
+        <div class="item item-8" style="background-image: url('../../assets/images/gallery-8.jpg')"></div>
+        <div class="item item-9" style="background-image: url('../../assets/images/gallery-9.jpg')"></div>
+        <div class="item item-10" style="background-image: url('../../assets/images/gallery10.jpg')"></div>
     </div>
 </div>
 
@@ -530,16 +542,16 @@
         <form name="contactForm" id="contactForm" method="post" action="#" novalidate="novalidate">
             <fieldset>
                 <div class="form-field">
-                    <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    <input name="contactName" style="color: white" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                 </div>
                 <div class="form-field">
-                    <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    <input name="contactEmail" style="color: white" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
                 </div>
                 <div class="form-field">
-                    <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    <input name="contactSubject" style="color: white" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
                 </div>
                 <div class="form-field">
-                    <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    <textarea name="contactMessage" id="contactMessage" style="color: white" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
                 </div>
                 <br>
                 <br>
@@ -614,7 +626,7 @@
     <div data-aos="fade-down">
         <div class="row" style="width: 100%; padding-left: 20%; padding-right:10% ">
             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" style="margin-top: 2vh">
-                <h1 style="color: #F4F2F5;margin-bottom:3vh;margin-top: 5vh;font-weight: 500;">
+                <h1 style="color: #F4F2F5;margin-bottom:3vh;margin-top: 5vh;margin-left: -10%;font-weight: 500;">
                     DEVELOPMENT TEAM
                 </h1>
             </div>
@@ -706,6 +718,17 @@
         </div>
     </div>
 </div>
+
+<div class="pre-loader">
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div>
+        <img src="../../assets/images/logo.png">
+    </div>
+</div>
+
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
 
@@ -759,6 +782,5 @@
         document.getElementById("myNav").style.height = "0%";
     }
 </script>
-
 </body>
 </html>
