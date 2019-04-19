@@ -15,9 +15,13 @@
   margin-bottom:0;
 }
 .btn-primary:hover{
-  background-color:#212121;
+  background-color:black;
   color:black;
-  border: 2px solid white;
+  border: 2px solid black;
+}
+.btn-primary{
+  background-color: #330740;
+  border:2px solid white;
 }
 fieldset {
   border: none;
@@ -49,41 +53,6 @@ select {
 textarea {
   min-height: 25rem;
 }
-button{
-  display: inline-block;
-  font-family: "montserrat-medium", sans-serif;
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  letter-spacing: .3rem;
-  height: 4.0rem;
-  padding: 0 2rem;
-  color: #000000;
-  text-decoration: none;
-  text-align: center;
-  white-space: nowrap;
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #c5c5c5;
-  border: .2rem solid #c5c5c5;
-}
-button:hover,
-button:focus {
-  background-color: $light-grey;
-  border-color: $light-grey;
-  color: #000000;
-  outline: 0;
-}
-//button.btn--primary {
-//  background: $main-color;
-//  border-color: $main-color;
-//  color: black;
-//}
-//.btn.btn--primary:hover{
-//  background: $main-color;
-//  border-color: $main-color;
-//}
-
 .subhead {
   font-family: "montserrat-bold", sans-serif;
   font-size: 3.0rem;
@@ -124,7 +93,7 @@ button:focus {
   width: 100%;
   height: 100%;
   opacity: .8;
-  background-color: $light-black;
+  background-color: #330740;
 }
 .s-contact .form-field {
   position: relative;
@@ -194,7 +163,7 @@ button:focus {
 .contact-secondary {
   width: 35%;
 }
-.contact-secondary::before {
+.contact-secondary::before{
   content: "";
   display: block;
   width: 35%;
@@ -225,6 +194,22 @@ button:focus {
 .contact-social li a:hover,
 .contact-social li a:focus {
   color: $main-color;
+}
+
+.contact-social li a.fa-instagram:hover {
+  background: $dark-pink;
+}
+.contact-social li a.fa-twitter:hover{
+  background: $light-blue;
+}
+.contact-social li a.fa-facebook:hover{
+  background: $dark-blue;
+}
+.contact-social li a.fa-envelope:hover{
+  background: $dark-red;
+}
+.contact-social li a.fa-youtube:hover{
+  background: $light-red;
 }
 .contact-social li:last-child {
   margin: 0;

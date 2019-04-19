@@ -114,8 +114,28 @@ p {
     opacity:1;
   }
 }
-.btn5:hover{
-  background-color:black;
-  color:white;
-  border: 2px solid white;
+.about{
+  display: inline-block;
+  font-family: "montserrat-medium", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  height: 4.0rem;
+  padding: 0 2rem;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  border: .2rem solid #c5c5c5;
+}
+.about:hover,
+.about:focus {
+  background-color: black;
+  border-color: black;
+  color: #000000;
+  outline: 0;
 }
