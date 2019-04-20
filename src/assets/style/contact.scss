@@ -117,6 +117,7 @@ textarea {
   color: black;
   background: #F4F2F5;
 }
+
 .s-contact .form-field label::after {
   content: "";
   position: absolute;
@@ -171,7 +172,7 @@ textarea {
   top: 0;
   bottom: 0;
   right: 0;
-  background-color: black;
+  background-color: #30074a;
 }
 .contact-secondary .contact-info {
   position: relative;
@@ -185,34 +186,29 @@ textarea {
   //margin-right:18%;
   letter-spacing: 2px;
 }
-.contact-social li {
-  display: inline-block;
-}
-.contact-social li a {
-  color: $light-grey;
-}
-.contact-social li a:hover,
-.contact-social li a:focus {
-  color: $main-color;
+.contact-social a{
+  color:white;
 }
 
-.contact-social li a.fa-instagram:hover {
+.contact-social  a.fa-instagram:hover {
   background: $dark-pink;
+  //transform: scale(1.5);
 }
-.contact-social li a.fa-twitter:hover{
+.contact-social a.fa-twitter:hover{
   background: $light-blue;
+  //transform: scale(1.5)
 }
-.contact-social li a.fa-facebook:hover{
+.contact-social  a.fa-facebook:hover{
   background: $dark-blue;
+  //transform: scale(1.5)
 }
-.contact-social li a.fa-envelope:hover{
+.contact-social  a.fa-envelope:hover{
   background: $dark-red;
+  //transform: scale(1.5)
 }
-.contact-social li a.fa-youtube:hover{
+.contact-social  a.fa-youtube:hover{
   background: $light-red;
-}
-.contact-social li:last-child {
-  margin: 0;
+  //transform: scale(1.5)
 }
 .message-warning,
 .message-success {

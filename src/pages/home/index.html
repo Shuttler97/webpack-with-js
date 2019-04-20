@@ -32,7 +32,7 @@
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-header">
         <a class="navbar-brand" href="#"><img src="./assets/images/navtc.png" style="margin-top: -7vh"></a>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onclick="openNav()">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onclick="openNav()" style="background-color: transparent">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -49,15 +49,13 @@
                     <li><a href="#services" onclick="closeNav()">Our Services</a></li><br>
                     <li><a href="#gallery" onclick="closeNav()">Scrapbook</a></li><br>
                     <li><a href="#contact" onclick="closeNav()">Contact Us</a></li><br>
-                    <div class="social-icons" style="margin-top: 10%">
-                        <a href="#dev_team" onclick="dis()">
-                            <img src="./assets/images/dev.png" title="Meet the team" style="width: 62px; height: 60px;margin-top: 1%;">
-                        </a>
-                            <a href="https://www.facebook.com/conatus.akg/" style="border: none"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-                            <a href="https://twitter.com/conatus_akg" style="border: none"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://www.instagram.com/conatus.akg/" style="border: none"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                            <a href="https://www.youtube.com/channel/UCx47CEF3DpgTrlbS502Q83Q" style="border: none"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-                            <a href="mailto:conatus.akgec2016@gmail.com" style="border: none"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                    <li><a href="#dev_team" onclick="dis">Development Team</a></li><br>
+                    <div class="social-icons" style="margin-top: 7%">
+                            <a href="https://www.facebook.com/conatus.akg/" style="color:white;border: none" class="fab fa-facebook"></a>
+                            <a href="https://twitter.com/conatus_akg" style="color:white;border: none" class="fab fa-twitter"></a>
+                            <a href="https://www.instagram.com/conatus.akg/" style="color:white;border: none" class="fab fa-instagram"></a>
+                            <a href="https://www.youtube.com/channel/UCx47CEF3DpgTrlbS502Q83Q" style="color:white;border: none" class="fab fa-youtube"></a>
+                            <a href="mailto:conatus.akgec2016@gmail.com" style="color:white;border: none" class="fa fa-envelope"></a>
                     </div>
                     <!--<li><a href="#dev_team" onclick="dis()">Development Team</a></li><br>-->
                 </ul>
@@ -119,7 +117,7 @@
         <div class="row" style="width: 100%">
             <div class="portfolio1" data-aos="fade-up">
                 <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4">
-                    <h1 style="color: #212121; font-size: 40px">< Our Portfolio /></h1>
+                    <h1 style="color: #212121; font-size: 40px; font-family:"montserrat-bold", sans-serif">< Our Portfolio /></h1>
                     <p>
                         Where innovation is instinct
                     </p>
@@ -176,13 +174,13 @@
 
 <!--Events starts here-->
 <div class="fg" style="background-color: #F5F5F5"   >
-<i style="font-size: 30px;margin-left: 90%;background-color: #F5F5F5;" class="btn" onclick="shut() " id="shut"><img src="./assets/images/cross.png" style="width:20%"></i>
+<i style="font-size: 30px;margin-left: 90%;background-color: #F5F5F5;width:20px;height:50px" class="btn" onclick="shut()" id="shut">&times;</i>
 <div id="events">
     <div class="container8" >
         <div class="row">
             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" data-aos="fade-left">
                 <div class="our-events1">
-                    <h1 style="color: #212121;margin-bottom: 3%; font-size: 3vw;font-weight:500;margin-top:-1%">
+                    <h1 style="color: #212121;margin-bottom: 3%; font-size: 3vw;font-weight:500;margin-top:-1%; font-family: "montserrat-bold", sans-serif">
                         EVENTS
                     </h1>
                 </div>
@@ -293,7 +291,7 @@
 <!--Magazine starts here-->
 
 <div id = "magazines" style="background-color: #F5F5F5">
-    <h1 style="text-align: center;color:#212121;margin-top: 0;margin-bottom: 2%;font-weight:500">CONOSCENZA</h1>
+    <h1 style=" font-family: "montserrat-bold", sans-serif;text-align: center;color:#212121;margin-top: 0;margin-bottom: 2%;font-weight:500">CONOSCENZA</h1>
     <section class="stretcher-wrapper">
         <div class="magazine-animation" style="padding-left:3%;padding-right:3%;padding-bottom:3% ">
             <ul class="stretcher">
@@ -394,9 +392,9 @@
                             organizing a wide range of activities throughout the year.
                         </p>
                         <br>
-                        <button onclick="faculty()" class="about" style="border: 2px solid white;color:white;margin-left: 2%">MENTORS</button>
+                        <button onclick="faculty()" class="about" style="margin-left: 2%">MENTORS</button>
                         <a href="coordinators.html" target="_blank" style="text-decoration: none">
-                        <button class="about" style="border: 2px solid white;color:white;margin-left:2%">COORDINATORS</button>
+                        <button class="about" style="margin-left:2%">COORDINATORS</button>
                         </a>
                     </div>
                 </div>
@@ -408,7 +406,7 @@
 <!--Mentors start here-->
 
 <div id="faculty" style="background-color: #F5F5F5">
-    <i style="font-size: 30px;margin-left:90%" class="btn" onclick="shut1() " id="shut1"><img src="./assets/images/cross.png" style="width:20%"></i>
+    <i style="font-size: 30px;margin-left:90%" class="btn" onclick="shut1() " id="shut1">&times;</i>
     <div class="container7">
         <div class="row" style="width: 100%">
             <div class="faculty-animation" data-aos="fade-right">
@@ -456,7 +454,7 @@
 
 <!--SERVICES-->
 
-<div class="container3" id="services">
+<div class="container3" id="services" style="background-color: #e6e6ff">
     <div class="row" style="width: 100%;padding-left:13%">
         <div class="services-animation" data-aos="fade-down">
             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" style="margin-top: 3vh">
@@ -465,31 +463,31 @@
                 </h1>
             </div>
             <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh">
-                <img src="./assets/images/android.png" style="width: 92px; height: 90px">
+                <img src="./assets/images/android.png" style="width: 92px; height: 90px" class="scale">
                 <p style="color: #88808b; font-size: 24px">
                     App Development
                 </p>
             </div>
-            <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh">
-                <img src="./assets/images/management.png" style="width: 92px; height: 90px">
+            <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh" >
+                <img src="./assets/images/management.png" style="width: 92px; height: 90px" class="scale">
                 <p style="color: #88808b; font-size: 24px">
                     Managerial
                 </p>
             </div>
             <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh">
-                <img src="./assets/images/ml.png" style="width: 92px; height: 90px">
+                <img src="./assets/images/ml.png" style="width: 92px; height: 90px" class="scale">
                 <p style="color: #88808b; font-size: 24px">
                     Machine Learning
                 </p>
             </div>
             <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh">
-                <img src="./assets/images/photoshop.png" style="width: 92px; height: 90px">
-                <p style="color: #88808b; font-size: 24px">
+                <img src="./assets/images/photoshop.png" style="width: 92px; height: 90px" class="scale">
+                <p style="color: #88808b; font-size: 24px" >
                     Graphic Designing
                 </p>
             </div>
             <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh">
-                <img src="./assets/images/web.png" style="width: 92px; height: 90px">
+                <img src="./assets/images/web.png" style="width: 92px; height: 90px" class="scale">
                 <p style="color: #88808b; font-size: 24px">
                     Web Development
                 </p>
@@ -525,10 +523,10 @@
 
 <!--QUOTE-->
 
-<div class="container7">
+<div class="container7" style="background-color: #e6e6ff">
     <div class="row" style="width: 100%">
         <div data-aos="fade-right">
-            <h3 style="text-align: center;font-weight:500; margin-top: 4%; margin-bottom: 4%; font-family: 'Merienda', cursive;">
+            <h3 style="text-align: center;font-weight:500; margin-top: 4%; margin-bottom: 4%">
                 "Alone we can do so little together we can do so much." <br>
                 This is what the team stands upon. Team Conatus is the Techno-Managerial <br>
                 society of AKGEC, vigilantly keeping an eye on every technical aspects <br>
@@ -569,7 +567,7 @@
                 <br>
                 <br>
                 <div class="form-field">
-                    <button class="btn btn-primary" style="border: 2px solid white;color:white;letter-spacing:2px">Submit</button>
+                    <button class="about" style="letter-spacing:2px">Submit</button>
                     <div class="submit-loader">
                         <div class="s-loader">
                             <div class="bounce1"></div>
@@ -610,24 +608,13 @@
                     Mobile: 8542835667<br>
                 </p>
             </div>
-            <ul class="contact-social" >
-                <li>
-                    <a href="https://www.facebook.com/conatus.akg/" style="border: none"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com/conatus_akg" style="border: none"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/conatus.akg/" style="border: none"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCx47CEF3DpgTrlbS502Q83Q" style="border: none"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-                </li>
-                <li>
-                    <a href="mailto:conatus.akgec2016@gmail.com" style="border: none"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                </li>
-            </ul>
-
+            <div class="contact-social" >
+                    <a href="https://www.facebook.com/conatus.akg/" style="border: none" class="fab fa-facebook"></a>
+                    <a href="https://twitter.com/conatus_akg" style="border: none"class="fab fa-twitter" ></a>
+                    <a href="https://www.instagram.com/conatus.akg/" style="border: none"class="fab fa-instagram"  ></a>
+                    <a href="https://www.youtube.com/channel/UCx47CEF3DpgTrlbS502Q83Q" style="border: none" class="fab fa-youtube"></a>
+                    <a href="mailto:conatus.akgec2016@gmail.com" style="border: none" class="fa fa-envelope" ></a>
+            </div>
         </div>
     </div>
 </div>

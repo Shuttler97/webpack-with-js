@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Righteous');
+@import "../../assets/variables/_colors";
 $color-background: #F5F5F5;
 $color-main: #33133F;
 $color-active: #FFF;
@@ -13,6 +14,7 @@ $button-width: 35px;
 .navbar-toggle {
   display: block;
 }
+
 .navbar-collapse.collapse {
   display: block!important;
 }
@@ -83,21 +85,27 @@ $button-width: 35px;
     right: 35px;
   }
 }
+.social-icons{
+  margin-left:-5%;
+  font-size:20px;
+}
+.social-icons  a.fa-instagram:hover {
+  background: $dark-pink;
+}
+.social-icons  a.fa-twitter:hover{
+  background: $light-blue;
+}
+.social-icons a.fa-facebook:hover{
+  background: $dark-blue;
+}
+.social-icons  a.fa-envelope:hover{
+  background: $dark-red;
+}
+.social-icons  a.fa-youtube:hover{
+  background: $light-red;
+}
 
-//.tooltip .tooltiptext{
-//  visibility: hidden;
-//  width: 120px;
-//  background-color: black;
-//  color: #fff;
-//  text-align: center;
-//  border-radius: 6px;
-//  padding: 5px 0;
-//  position: absolute;
-//  z-index: 1;
-//}
-//.tooltip:hover .tooltiptext img{
-//  visibility: visible;
-//}
+
 
 /* jQuery Styles
 ===================================*/
@@ -110,9 +118,4 @@ $button-width: 35px;
 .nav-dropdown-scroll {
   background: #e7eaea;
   box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
-}
-.social-icons{
-  margin-left:-5%;
-  font-size:20px;
-  color:transparent;
 }
