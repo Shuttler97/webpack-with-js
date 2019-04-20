@@ -18,6 +18,7 @@
 @import url('https://fonts.googleapis.com/css?family=Domine');
 @import "wave";
 @import "topbtn";
+@import "scrollbtn";
 
 body {
   font-family: 'Domine', serif;
@@ -25,6 +26,11 @@ body {
 #shut,
 #shut1{
   display:none;
+}
+.container13{
+  height: 10vh;
+  width:100%;
+  overflow:hidden;
 }
 .pre-loader {
   div {
@@ -41,6 +47,7 @@ body {
     //border-bottom: 1px solid #fff;
     z-index: 1;
     animation:animate 1s ease-in-out forwards;
+    overflow: hidden;
   }
   @keyframes animate {
     0%{
@@ -50,35 +57,39 @@ body {
       transform:translate(-50%,-50%) scale(1);
     }
   }
-  div:nth-child(1) {
+  .circle1{
     width: 1500px;
     height: 1500px;
     animation-delay: 0s;
     overflow: hidden;
   }
 
-  div:nth-child(2) {
+  .circle2 {
     width: 1250px;
     height: 1250px;
     animation-delay: 0.5s;
+    overflow: hidden;
   }
 
-  div:nth-child(3) {
+  .circle3 {
     width: 1000px;
     height: 1000px;
     animation-delay: 1s;
+    overflow: hidden;
   }
-  div:nth-child(4) {
+  .circle4 {
     width: 750px;
     height: 750px;
     animation-delay: 1.5s;
+    overflow: hidden;
   }
-  div:nth-child(5) {
+  .circle5 {
     width: 500px;
     height: 500px;
     animation-delay: 2s;
+    overflow: hidden;
   }
-  div:nth-child(5) img{
+  .circle5 img{
     max-width:250px;
     z-index: -1;
     transform:translateY(500px);

@@ -276,8 +276,11 @@ $(document).ready(function(){
 
 });
 
-// $(window).on('load', function() { // makes sure the whole site is loaded
-//     $('#status').fadeOut(); // will first fade out the loading animation
-//     $('#preloader').delay(1500).fadeOut('slow'); // will fade out the white DIV that covers the website.
-//     $('body').delay(1500).css({'overflow':'visible'});
-// })
+// scroll down button
+
+$(function() {
+    $('.scroll-down').click (function() {
+        $('html, body').animate({scrollTop: $('section.down').offset().top }, 'slow');
+        return false;
+    });
+});
