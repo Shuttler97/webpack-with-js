@@ -49,8 +49,8 @@
                     <li><a href="#services" onclick="closeNav()">Our Services</a></li><br>
                     <li><a href="#gallery" onclick="closeNav()">Scrapbook</a></li><br>
                     <li><a href="#contact" onclick="closeNav()">Contact Us</a></li><br>
-                    <li><a href="#dev_team" onclick="dis">Development Team</a></li><br>
-                    <div class="social-icons" style="margin-top: 7%">
+                    <li><a href="#dev_team" onclick="dis()">Development Team</a></li><br>
+                    <div class="social-icons" style="margin-top: 7%; margin-left: 1%">
                             <a href="https://www.facebook.com/conatus.akg/" style="color:white;border: none" class="fab fa-facebook"></a>
                             <a href="https://twitter.com/conatus_akg" style="color:white;border: none" class="fab fa-twitter"></a>
                             <a href="https://www.instagram.com/conatus.akg/" style="color:white;border: none" class="fab fa-instagram"></a>
@@ -126,8 +126,8 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4">
                             <div class="event">
-                                <div class="btn" onclick="events()" style="font-size:28px;font-weight:500">
-                                    <img src="./assets/images/event.png" alt="Avatar" class="image" style="width:100%;margin-left: 20%">
+                                <div onclick="events()" style="font-size:28px;font-weight:500">
+                                    <img src="./assets/images/event.png" alt="Avatar" class="image" style="width:55%;margin-left: 20%">
                                     <div class="middle">
                                         EVENTS
                                     </div>
@@ -154,8 +154,8 @@
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4">
                             <div class="magazine">
-                                <div class="btn" onclick="magazines()" style="font-size:28px;font-weight:500">
-                                    <img src="./assets/images/magzine.png" style="width: 100%;margin-left: 20%" class="image" alt="avatar">
+                                <div  onclick="magazines()" style="font-size:28px;font-weight:500">
+                                    <img src="./assets/images/magzine.png" style="width: 55%;margin-left: 20%" class="image" alt="avatar">
                                     <div class="middle1">
                                         MAGAZINES
                                     </div>
@@ -174,7 +174,7 @@
 
 <!--Events starts here-->
 <div class="fg" style="background-color: #F5F5F5"   >
-<i style="font-size: 30px;margin-left: 90%;background-color: #F5F5F5;width:20px;height:50px" class="btn" onclick="shut()" id="shut">&times;</i>
+<i style="font-size: 50px;margin-left: 90%;text-align:center;background-color: #F5F5F5;width:50px;height:80px" class="btn" onclick="shut()" id="shut">&times;</i>
 <div id="events">
     <div class="container8" >
         <div class="row">
@@ -291,7 +291,13 @@
 <!--Magazine starts here-->
 
 <div id = "magazines" style="background-color: #F5F5F5">
-    <h1 style=" font-family: "montserrat-bold", sans-serif;text-align: center;color:#212121;margin-top: 0;margin-bottom: 2%;font-weight:500">CONOSCENZA</h1>
+    <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" data-aos="fade-left">
+        <div class="our-events1">
+            <h1 style="color: #212121;margin-bottom: 3%; font-size: 3vw;font-weight:500;margin-top:-1%; font-family: "montserrat-bold", sans-serif">
+            MAGAZINES
+            </h1>
+        </div>
+    </div>
     <section class="stretcher-wrapper">
         <div class="magazine-animation" style="padding-left:3%;padding-right:3%;padding-bottom:3% ">
             <ul class="stretcher">
@@ -458,37 +464,37 @@
     <div class="row" style="width: 100%;padding-left:13%">
         <div class="services-animation" data-aos="fade-down">
             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" style="margin-top: 3vh">
-                <h1 style="color: #212121; font-weight: 600;margin-right: 15%; font-size: 40px">
+                <h1 style="color: #212121;margin-right: 15%; font-size: 40px">
                     Our Services
                 </h1>
             </div>
             <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh">
-                <img src="./assets/images/android.png" style="width: 92px; height: 90px" class="scale">
-                <p style="color: #88808b; font-size: 24px">
+                <img src="./assets/images/flutter.png" style="width: 92px; height: 90px" class="scale">
+                <p style="color: #000026; font-size: 24px">
                     App Development
                 </p>
             </div>
             <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh" >
                 <img src="./assets/images/management.png" style="width: 92px; height: 90px" class="scale">
-                <p style="color: #88808b; font-size: 24px">
+                <p style="color: #000026; font-size: 24px">
                     Managerial
                 </p>
             </div>
             <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh">
                 <img src="./assets/images/ml.png" style="width: 92px; height: 90px" class="scale">
-                <p style="color: #88808b; font-size: 24px">
+                <p style="color: #000026; font-size: 24px">
                     Machine Learning
                 </p>
             </div>
             <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh">
                 <img src="./assets/images/photoshop.png" style="width: 92px; height: 90px" class="scale">
-                <p style="color: #88808b; font-size: 24px" >
+                <p style="color: #000026; font-size: 24px" >
                     Graphic Designing
                 </p>
             </div>
             <div class="text-center col-md-2 col-sm-2 col-lg-2" style="margin-top: 4vh">
                 <img src="./assets/images/web.png" style="width: 92px; height: 90px" class="scale">
-                <p style="color: #88808b; font-size: 24px">
+                <p style="color: #000026; font-size: 24px">
                     Web Development
                 </p>
             </div>
@@ -508,16 +514,16 @@
         </div>
     </div>
     <div class="gallery" data-aos="fade-left">
-        <div class="item item-1" style="background-image: url('./assets/images/gallery-1.JPG')"></div>
-        <div class="item item-2" style="background-image: url('./assets/images/gallery-2.jpg')"></div>
-        <div class="item item-3" style="background-image: url('./assets/images/gallery-3.JPG')"></div>
-        <div class="item item-4" style="background-image: url('./assets/images/gallery-4.jpg')"></div>
-        <div class="item item-5" style="background-image: url('./assets/images/gallery-5.JPG')"></div>
-        <div class="item item-6" style="background-image: url('./assets/images/gallery-6.JPG')"></div>
-        <div class="item item-7" style="background-image: url('./assets/images/gallery-7.JPG')"></div>
-        <div class="item item-8" style="background-image: url('./assets/images/gallery-8.jpg')"></div>
-        <div class="item item-9" style="background-image: url('./assets/images/gallery-9.jpg')"></div>
-        <div class="item item-10" style="background-image: url('./assets/images/gallery10.jpg')"></div>
+        <div class="item item-1" style="background-image: url('./assets/images/gallery-1.png')"></div>
+        <div class="item item-2" style="background-image: url('./assets/images/gallery-2.png')"></div>
+        <div class="item item-3" style="background-image: url('./assets/images/gallery-3.png')"></div>
+        <div class="item item-4" style="background-image: url('./assets/images/gallery-4.png')"></div>
+        <div class="item item-5" style="background-image: url('./assets/images/gallery-8.png')"></div>
+        <div class="item item-6" style="background-image: url('./assets/images/gallery-3.png')"></div>
+        <div class="item item-7" style="background-image: url('./assets/images/gallery-2.png')"></div>
+        <div class="item item-8" style="background-image: url('./assets/images/gallery-8.png')"></div>
+        <div class="item item-9" style="background-image: url('./assets/images/gallery-9.png')"></div>
+        <div class="item item-10" style="background-image: url('./assets/images/gallery10.png')"></div>
     </div>
 </div>
 

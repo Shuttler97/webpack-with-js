@@ -39,8 +39,8 @@
 .our-teams .team-content{
   width: 85%;
   height: 100%;
-  background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff);
-  padding: 18% 10px 20px;
+  background: linear-gradient(to right, #11998e, #38ef7d);;
+  padding: 10% 10px 20px;
   bottom:0;
   top:0;
   position: absolute;
@@ -56,7 +56,7 @@
 }
 .our-teams .title
 {
-  font-size:1.2vw;
+  font-size:1vw;
   color: black;
   margin: 10px 0 10px 0;
   font-weight: bold;
@@ -65,7 +65,7 @@
 .our-teams .post
 {
   display:block;
-  font-size:0.9vw;
+  font-size:0.8vw;
   font-weight:100;
   color: #333;
   text-transform: uppercase;
@@ -89,7 +89,7 @@
 .our-teams .social li:last-child
 {
   margin-right: 0%;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .our-teams .social li {

@@ -4,7 +4,8 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-  background-color:#330740;
+  background-color: #191919;
+  //background-color:#330740;
 }
 
 .circle{
@@ -134,7 +135,6 @@ p {
 }
 .about:hover{
   background-color: white;
-  border: .4rem solid black;
   color: black;
   outline: 0;
 }
