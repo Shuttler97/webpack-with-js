@@ -2,8 +2,10 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: #191919;
-  //background: linear-gradient(to bottom, #341440 0%, #471B4E 100%);
+  overflow: hidden;
+
+  //background: #191919;
+  background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
   //display: grid;
 }
 .container .text {
