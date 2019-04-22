@@ -1,6 +1,10 @@
+@import "../../assets/variables/_colors.scss";
 .scroll-down{
-  opacity: 1;
+  opacity: 0.2;
   -webkit-transition: all .5s ease-in 3s;
+}
+.scroll-down:hover{
+  opacity:1;
 }
 .scroll-down{
   position: absolute;
@@ -10,7 +14,7 @@
   display: block;
   width: 52px;
   height: 52px;
-  border: 2px solid #00A68A;
+  border: 2px solid $secondary-color;
   background-size: 14px auto;
   border-radius: 50%;
   z-index: 50;
@@ -28,7 +32,7 @@
   width: 18px;
   height: 18px;
   content: "";
-  border: 2px solid #00A68A;
+  border: 2px solid $secondary-color;
   border-width: 0px 0 2px 2px;
 }
 @keyframes bounce {

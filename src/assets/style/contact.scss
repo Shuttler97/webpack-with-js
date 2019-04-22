@@ -1,7 +1,7 @@
 @import "../../assets/variables/colors";
 .row5 {
-  width: 94%;
-  max-width: 1000px;
+  width: 54%;
+  // max-width: 1000px;
   margin: 0 auto;
 }
 .row5:after {
@@ -78,7 +78,7 @@ textarea {
   z-index: 500;
 }
 .s-contact {
-  background-color: $light-black;
+  background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
   background-repeat: no-repeat;
   background-position: center, center;
   padding-top: 15rem;
@@ -93,8 +93,7 @@ textarea {
   width: 100%;
   height: 100%;
   opacity: .8;
-  background-color: #191919;
-  //background-color: #330740;
+  background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
 }
 .s-contact .form-field {
   position: relative;
@@ -173,7 +172,7 @@ textarea {
   top: 0;
   bottom: 0;
   right: 0;
-background-color: #141313;
+ background:  #0033cc;
   //background-color: #30074a;
 }
 
@@ -194,42 +193,22 @@ background-color: #141313;
 }
 
 .contact-social  a.fa-instagram:hover {
-  background: $dark-pink;
-  //transform: scale(1.5);
+  background-color:  $dark-pink;
+  transform: scale(1.5);
 }
 .contact-social a.fa-twitter:hover{
-  background: $light-blue;
-  //transform: scale(1.5)
+  background-color: $light-blue;
+  transform: scale(1.5)
 }
 .contact-social  a.fa-facebook:hover{
-  background: $dark-blue;
-  //transform: scale(1.5)
+  background-color: $dark-blue;
+  transform: scale(1.5)
 }
 .contact-social  a.fa-envelope:hover{
-  background: $dark-red;
-  //transform: scale(1.5)
+  background-color: $dark-red;
+  transform: scale(1.5)
 }
 .contact-social  a.fa-youtube:hover{
-  background: $light-red;
-  //transform: scale(1.5)
-}
-.message-warning,
-.message-success {
-  display: none;
-  background: black;
-  font-size: 1.2rem;
-  line-height: 2;
-  padding: 3rem;
-  margin-bottom: 3.6rem;
-  width: 100%;
-}
-.message-warning {
-  color: $light-red;
-}
-.message-success {
-  color: $main-color;
-}
-.message-warning i, .message-success i {
-  margin-right: 10px;
-  font-size: 1.2rem;
+  background-color: $light-red;
+  transform: scale(1.5)
 }
