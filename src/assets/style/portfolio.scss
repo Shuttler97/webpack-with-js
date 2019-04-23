@@ -1,73 +1,83 @@
-
- .image {
-   opacity: 1;
-   display: block;
-   height: auto;
-   transition: .5s ease;
-   backface-visibility: hidden;
- }
-.event,
-.magazine,
-.birthday{
-  position: relative;
-  width:auto;
-  height:auto;
-}
- .middle{
-   transition: .5s ease;
-   opacity: 0;
-   position: absolute;
-   top: 50%;
-   left: 47%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   text-align: center;
- }
- .middle2{
-   transition: .5s ease;
-   opacity: 0;
-   position: absolute;
-   top: 50%;
-   left: 47%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   text-align: center;
- }
- .middle1 {
-   transition: .5s ease;
-   opacity: 0;
-   position: absolute;
-   top: 50%;
-   left: 47%;
-   transform: translate(-50%, -50%);
-   -ms-transform: translate(-50%, -50%);
-   text-align: center;
- }
-
-.event:hover .image {
-  opacity: 0.4;
-  cursor: pointer;
-}
- .event:hover .middle {
-  opacity: 1;
-}
- .magazine:hover .image {
-   opacity: 0.4;
-   cursor: pointer;
- }
- .magazine:hover .middle1 {
-   opacity: 1;
- }
- .birthday:hover .image {
-   opacity: 0.4;
-   cursor: pointer;
- }
- .birthday:hover .middle2 {
-   opacity: 1;
- }
+@import "../variables/_colors.scss";
 
 
 .container1{
-  background-color:  #e6e6ff;
+  background-color:  $color-primary;
 }
 
+.container14{
+  width: 970px;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+
+
+
+
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.carousel-control {
+  width: 8%;
+}
+.carousel-control.left,
+.carousel-control.right {
+  margin-right: 40px;
+  margin-left: 22px;
+  background-image: none;
+  opacity: 1;
+}
+.carousel-control > a > span {
+  color: white;
+  font-size: 29px !important;
+}
+
+.carousel-col {
+  position: relative;
+  min-height: 1px;
+  padding: 5px;
+  float: left;
+  width: 306px;
+}
+.item{
+  margin-left: 18%;
+  margin-right: 10%;
+}
+.active > div { display:none; }
+.active > div:first-child { display:block; }
+
+
+
+  .carousel-inner .active.left { left: -50%; }
+  .carousel-inner .active.right { left: 50%; }
+  .carousel-inner .next        { left:  50%; }
+  .carousel-inner .prev		     { left: -50%; }
+  .carousel-col                { width: 50%; }
+  .active > div:first-child + div { display:block; }
+
+
+.block {
+  width: 280px;
+  height: 280px;
+}
+.block:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease-in;
+}
+.portfolio1:before {
+  position: relative;
+  top: .1em;
+  display: block;
+  width: 20%;
+  max-width: 300px;
+  height: 4px;
+  margin: auto;
+  content: '';
+  background-color: #20fdc3;
+}

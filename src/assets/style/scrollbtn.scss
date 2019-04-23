@@ -1,6 +1,6 @@
 @import "../../assets/variables/_colors.scss";
 .scroll-down{
-  opacity: 0.2;
+  opacity: 0.8;
   -webkit-transition: all .5s ease-in 3s;
 }
 .scroll-down:hover{
@@ -32,7 +32,7 @@
   width: 18px;
   height: 18px;
   content: "";
-  border: 2px solid $secondary-color;
+  border: 4px solid $secondary-color;
   border-width: 0px 0 2px 2px;
 }
 @keyframes bounce {

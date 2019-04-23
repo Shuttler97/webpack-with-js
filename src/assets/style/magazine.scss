@@ -2,13 +2,13 @@
 @import "../../assets/variables/_colors.scss";
 .stretcher-wrapper {
   padding-bottom: 0;
-  border-top: 1px solid white;
+  //border-top: 1px solid #e6e6ff;
 }
 .stretcher-wrapper.stretcher-wrapper-noheader {
   padding-top: 0;
 }
 .stretcher-wrapper .section-header {
-  background-color: #F5F5F5;
+  background-color: #e6e6ff;
   position: relative;
 }
 .stretcher-wrapper .section-header:before {
@@ -77,7 +77,7 @@
 }
 .stretcher-wrapper .stretcher .stretcher-item.more .more-icon {
   font-size: 70px;
-  color: white;
+  color: #e6e6ff;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -165,7 +165,7 @@
   -webkit-transition: opacity .2s;
   transition: opacity .2s;
   font-size: initial;
-  color: white;
+  color: #e6e6ff;
   padding-left: 2%;
 }
 .stretcher-wrapper .stretcher .stretcher-item .stretcher-logo img, .stretcher-wrapper .stretcher .stretcher-item .stretcher-logo .text {
@@ -193,7 +193,7 @@
 
 .stretcher-wrapper .stretcher .stretcher-item figure {
   background-color: $mag-color;
-  color: white;
+  color: #e6e6ff;
   position: absolute;
   z-index: 9;
   font-size: initial;

@@ -6,12 +6,16 @@
   z-index: 99;
   font-size: 35px;
   color: black;
-  background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
+  background: transparent;
   cursor: pointer;
   width: 60px;
   height: 70px;
 }
 .scrollToTop:hover{
-  background-color: #32283C;
-  color:white;
+  background-color: #00A68A;
+  color:black;
+}
+.arrow{
+  color: #black;
+  font-weight: bold;
 }

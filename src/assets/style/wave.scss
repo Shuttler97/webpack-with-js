@@ -3,14 +3,14 @@
   position: absolute;
   top: 50%;
   left: 60%;
-  width: 210vw;
-  height: 250vw;
+  width: 250vw;
+  height: 290vw;
   margin-left: -125vw;
   transform-origin: 50% 50%;
   background-color: #e6e6ff;
-  border-radius: 38% 42%;
+  border-radius: 48% 52%;
   box-shadow: inset 0 0 10vw rgba(255,255,255,0.5);
-  animation: spin 41s infinite linear;
+  animation: spin 51s infinite linear;
   z-index: 10;
 }
 @keyframes  spin {
