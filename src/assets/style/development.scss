@@ -9,7 +9,7 @@
 }
 .container9{
   display:none;
-  background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
+  background: #F4F2F5;
 }
 .dev-team .pic{
   display:inline-block;
@@ -22,7 +22,7 @@
 .dev-team .pic:before{
   content:"";
   width:100%;
-  background:#330740;
+  background:$secondary-color;
   position:absolute;
   bottom:135%;
   right:0;
@@ -75,7 +75,7 @@
   width:100%;
   padding:0;
   margin:0;
-  background:#330740;
+  background:$secondary-color;
   position:absolute;
   bottom:-180px;
   left:0;

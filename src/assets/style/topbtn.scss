@@ -1,3 +1,4 @@
+@import "../../assets/variables/_colors.scss";
 .scrollToTop{
   display: none;
   position: fixed;
@@ -5,17 +6,13 @@
   right: 30px;
   z-index: 99;
   font-size: 35px;
-  color: black;
   background: transparent;
   cursor: pointer;
-  width: 60px;
-  height: 70px;
+  width: 50px;
+  height: 55px;
 }
-.scrollToTop:hover{
-  background-color: #00A68A;
-  color:black;
-}
+
 .arrow{
-  color: #black;
+  color: $secondary-color;
   font-weight: bold;
 }

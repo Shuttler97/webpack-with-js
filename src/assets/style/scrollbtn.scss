@@ -3,13 +3,10 @@
   opacity: 0.8;
   -webkit-transition: all .5s ease-in 3s;
 }
-.scroll-down:hover{
-  opacity:1;
-}
 .scroll-down{
   position: absolute;
-  bottom: 30px;
-  left: 50%;
+  bottom: 60px;
+  left: 49%;
   margin-left: -16px;
   display: block;
   width: 52px;

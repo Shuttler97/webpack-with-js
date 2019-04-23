@@ -46,7 +46,7 @@
   width: 306px;
 }
 .item{
-  margin-left: 18%;
+  margin-left: 22%;
   margin-right: 10%;
 }
 .active > div { display:none; }
@@ -70,14 +70,14 @@
   transform: scale(1.1);
   transition: 0.5s ease-in;
 }
-.portfolio1:before {
-  position: relative;
-  top: .1em;
-  display: block;
-  width: 20%;
-  max-width: 300px;
-  height: 4px;
-  margin: auto;
-  content: '';
-  background-color: #20fdc3;
-}
+//.portfolio1:before {
+//  position: relative;
+//  top: .1em;
+//  display: block;
+//  width: 20%;
+//  max-width: 100px;
+//  height: 4px;
+//  margin-left:47%;
+//  content: '';
+//  background-color: #20fdc3;
+//}
