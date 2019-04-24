@@ -1,7 +1,7 @@
 .wave{
   content: '';
   position: absolute;
-  top: 55%;
+  top: 58%;
   left: 60%;
   width: 270vw;
   height: 290vw;
@@ -9,10 +9,41 @@
   transform-origin: 50% 50%;
   background-color: #e6e6ff;
   border-radius: 48% 52%;
-  box-shadow: inset 0 0 10vw rgba(255,255,255,0.5);
-  animation: spin 51s infinite linear;
-  z-index: 1;
+  animation: spin 41s infinite linear;
+  z-index: 10;
 }
+//.wave1{
+//  content: '';
+//  position: absolute;
+//  top: 55%;
+//  left: 55%;
+//  width: 350vw;
+//  height: 400vw;
+//  margin-left: -165vw;
+//  transform-origin: 50% 50%;
+//  background-color: transparent;
+//  border-radius: 48% 52%;
+//  //box-shadow: inset 0 0 10vw rgba(255,255,255,0.5);
+//  animation: spin 51s infinite linear;
+//  border:2px solid #793979;
+//  z-index: 1;
+//}
+//.wave2{
+//  content: '';
+//  position: absolute;
+//  top: 55%;
+//  left: 65%;
+//  width: 250vw;
+//  height: 290vw;
+//  margin-left: -185vw;
+//  transform-origin: 50% 50%;
+//  background-color: transparent;
+//  border-radius: 48% 52%;
+//  border:2px solid #793979;
+//  //box-shadow: inset 0 0 10vw rgba(255,255,255,0.5);
+//  animation: spin 51s infinite linear;
+//  z-index: 1;
+//}
 @keyframes  spin {
   100% { transform: rotate(360deg); }
 }

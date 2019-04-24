@@ -14,7 +14,9 @@ $button-width: 35px;
 .navbar-toggle {
   display: block;
 }
-
+.navbar-collapse{
+  height: 100% !important;
+}
 .navbar-collapse.collapse {
   display: block!important;
 }
