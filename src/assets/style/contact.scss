@@ -13,6 +13,7 @@
 }
 .contact-secondary{
   float: left;
+  margin-left: 3%;
 }
 .title h1{
   color: #743868;
@@ -58,7 +59,7 @@
   left: 15px;
   color: #9a99aa;
 }
-.contact-secondary img{
+.location img{
   width: 50px;
   height: 52px;
 }
@@ -153,5 +154,13 @@
 .mail{
   display: flex;
   justify-items: center;
+}
+.mail img{
+  width: 40px;
+  height: 42px;
+}
+.call img{
+  width: 40px;
+  height: 42px;
 }
 
