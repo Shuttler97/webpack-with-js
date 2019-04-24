@@ -1,3 +1,4 @@
+@import "../../assets/variables/_colors.scss";
 .container {
   position: relative;
   width: 100%;
@@ -109,7 +110,7 @@
   position: absolute;
   z-index: 50;
   margin-left: -5%;
-  background-color: #25FFD5;
+  background-color: $secondary-color;
   text-align: center;
   cursor: pointer;
   border: 1px solid transparent;
