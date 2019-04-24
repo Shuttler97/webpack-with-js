@@ -284,5 +284,8 @@ $(function() {
         return false;
     });
 });
+$("#playvideo").click(function(){
+    $("#video1")[0].src += "?autoplay=1";
+});
 
 
