@@ -2,3 +2,16 @@
   width:120%;
   height:500px;
 }
+.videobtn{
+  position: absolute;
+  z-index: 50;
+  margin-left: -5%;
+  background-color: $secondary-color;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+
+}
