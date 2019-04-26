@@ -12,6 +12,9 @@
 #events{
   display: none;
 }
+#editorial{
+  display: none;
+}
 .our-events{
   position: relative;
   width: 300px;
@@ -86,20 +89,21 @@
   margin:0;
   padding:0;
   color:#ffffff;
+  line-height: 1.4;
 }
 .our-events .imgbx img{
   width:100%;
   height:auto;
   margin-left: 0;
 }
-.our-events1:before {
-  position: relative;
-  top: -2em;
-  display: block;
-  width: 20%;
-  max-width: 100px;
-  height: 4px;
-  margin: auto;
-  content: '';
-  background-color: #20fdc3;
-}
+//.our-events1:before {
+//  position: relative;
+//  top: -2em;
+//  display: block;
+//  width: 20%;
+//  max-width: 100px;
+//  height: 4px;
+//  margin: auto;
+//  content: '';
+//  background-color: #20fdc3;
+//}

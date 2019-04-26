@@ -142,25 +142,18 @@
 .contact-social .social1 li a.fa-twitter{
   font-size: 2vw;
 }
-.call{
-  display: flex;
-  justify-items: center;
+
+.mail {
+  width: 80px;
+  height: 82px;
 }
-.location{
-  display: flex;
-  justify-items: center;
+.call {
+  width: 80px;
+  height: 82px;
 }
-.mail{
-  display: flex;
-  justify-items: center;
-}
-.mail img{
-  width: 40px;
-  height: 42px;
-}
-.call img{
-  width: 40px;
-  height: 42px;
+.map1{
+  width:80px;
+  height:82px;
 }
 
 .box{
@@ -222,4 +215,8 @@
 }
 @media (min-width:1200px) and (max-width: 1800px) {
   .contact-social .social1 li a{font-size: 20px}
+}
+.map{
+  width:100%;
+  padding: 3%;
 }
