@@ -189,9 +189,9 @@
 
 <!--Events starts here-->
 <div class="fg" style="background-color: #e6e6ff">
+  <i style="font-size: 50px;margin-left: 90%;background-color: transparent;" class="btn" onclick="shut() " id="shut">&times;</i>
     <div id="events">
         <div class="container8">
-            <i style="font-size: 50px;float: right;margin-right: 5%" class="btn" onclick="shut()" id="shut">&times;</i>
             <div class="row">
                 <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" data-aos="fade-left">
                     <div class="our-events1">
@@ -305,17 +305,9 @@
 <!--Magazine starts here-->
 
 <div id = "magazines" style="background-color: #e6e6ff">
-    <i style="font-size: 50px;float: right;margin-right: 2%" class="btn" onclick="shut()" id="shut2" >&times;</i>
-
-    <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" data-aos="fade-left" style="margin-top: 2%">
-
-        <div class="our-events1">
-
-            <h1 style="color: #212121;margin-bottom: 3%; font-size: 40px;font-weight:500; font-family:"montserrat-bold", sans-serif">
-            Magazines
-            </h1>
-        </div>
-    </div>
+  <div class="our-events1">
+<h1 style="text-align: center;color:#212121;margin-top: 0;margin-bottom: 2%;font-size: 40px;font-weight:500">MAGAZINES</h1>
+</div>
     <section class="stretcher-wrapper">
         <div class="magazine-animation" style="padding-left:3%;padding-right:3%;padding-bottom:3% ">
             <ul class="stretcher">
@@ -769,7 +761,7 @@
     }
     function magazines(){
         document.getElementById('portfolio').style.display = 'none';
-        document.getElementById('shut2').style.display = 'block';
+        document.getElementById('shut').style.display = 'block';
         document.getElementById('magazines').style.display = 'block';
     }
     function shut(){
@@ -777,7 +769,7 @@
         document.getElementById('events').style.display = 'none';
         document.getElementById('magazines').style.display = 'none';
         document.getElementById('shut').style.display = 'none';
-        document.getElementById('shut2').style.display = 'none';
+        // document.getElementById('shut2').style.display = 'none';
 
     }
     function faculty(){
