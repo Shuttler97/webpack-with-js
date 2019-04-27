@@ -128,32 +128,35 @@
 //
 //}
 .contact-social .social1 li a.fa-instagram{
-  font-size: 2vw;
+  font-size: 1.7vw;
  }
 .contact-social .social1 li a.fa-facebook{
-  font-size: 2vw;
+  font-size: 1.7vw;
  }
 .contact-social .social1 li a.fa-youtube{
-  font-size:2vw;
+  font-size:1.7vw;
 }
 .contact-social .social1 li a.fa-envelope{
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 .contact-social .social1 li a.fa-twitter{
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 
 .mail {
-  width: 80px;
-  height: 82px;
+  width: 70px;
+  height: 72px;
+  margin-top: 7%;
 }
 .call {
-  width: 80px;
-  height: 82px;
+  width: 70px;
+  height: 72px;
+  margin-top: 7%;
 }
 .map1{
   width:80px;
   height:82px;
+  margin-top: 3%;
 }
 
 .box{
@@ -174,7 +177,7 @@
   transition: 0.5s ease-in-out;
 }
 .icon .fas{
-  font-size: 3.5em;
+  font-size: 3em;
   color: $secondary-color;
   line-height: 100px;
 }
@@ -218,5 +221,5 @@
 }
 .map{
   width:100%;
-  padding: 3%;
+  height: 400px;
 }

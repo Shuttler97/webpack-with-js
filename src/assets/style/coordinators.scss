@@ -280,6 +280,46 @@
    animation-delay:0s;
    animation-duration: 11s;
  }
+ .background-bubbles li:nth-child(11){
+   left:0;
+   background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
+   width:100px;
+   height:100px;
+   animation-delay:0s;
+   animation-duration: 11s;
+ }
+.background-bubbles li:nth-child(12){
+  left:10%;
+  background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
+  width:120px;
+  height:120px;
+  animation-delay:2s;
+  animation-duration: 19s;
+}
+.background-bubbles li:nth-child(13){
+  left:25%;
+  background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
+  width:140px;
+  height:140px;
+  animation-delay:18s;
+  animation-duration: 29s;
+}
+.background-bubbles li:nth-child(14){
+  left:35%;
+  background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
+  width:80px;
+  height:80px;
+  animation-delay:15s;
+  animation-duration: 39s;
+}
+.background-bubbles li:nth-child(15){
+  left:45%;
+  background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
+  width:70px;
+  height:70px;
+  animation-delay:8s;
+  animation-duration: 15s;
+}
  @keyframes animatedown{
    0%{
      transform:translateY(0) rotate(0deg);
