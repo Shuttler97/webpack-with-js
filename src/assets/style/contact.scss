@@ -2,82 +2,6 @@
 .container16{
   background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);
 }
-.container17{
-  background: linear-gradient(to top, #2E2B38 0%, #282642 100%);
-}
-.contact-primary{
-  //width: 60%;
-  padding: 50px;
-  border-radius: 30px;
-  position: relative;
-  background: #e6e6ff;
-  margin-bottom: 4vh;
-  float: right;
-}
-.contact-secondary{
-  float: left;
-  margin-left: 3%;
-}
-.title h1{
-  color: #743868;
-  letter-spacing: 5px;
-  margin-bottom: 25px;
-  text-align: center;
-}
-.form,
-.form-items{
-  width: 100%;
-}
-.form-items .input{
-  width: 100%;
-  margin-bottom: 12px;
-  padding: 15px 40px;
-  box-sizing: border-box;
-  background: #ebeef1;
-  border: 0;
-  outline: none;
-  border-radius: 30px;
-}
-.form-items .input.message{
-  height: 100px;
-  border-radius: 15px;
-  margin-bottom: 30px;
-  padding: 15px;
-  resize: none;
-}
-.submitbtn{
-  background:linear-gradient(to bottom, #2E2B38 0%, #282642 100%) ;
-  text-align: center;
-  color: #FFFFFF;
-  padding: 12px;
-  border-radius: 25px;
-  cursor: pointer;
-}
-.form-items{
-  position: relative;
-}
-.form-items .fas{
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  color: #9a99aa;
-}
-.location img{
-  width: 50px;
-  height: 52px;
-}
-//.contact-secondary h3{
-//  margin-left: 30%;
-//}
-
-//.contact-social  .social1 {
-//  padding: 0;
-//  margin-left: auto;
-//  margin-right: auto;
-//  letter-spacing: 10px;
-//  list-style: none;
-//}
-
 .contact-social .social1 li {
   display: inline-block;
   padding-top: 20%;
@@ -123,103 +47,23 @@
   text-decoration: none;
 }
 
-//.contact-social .social1 li a:hover{
-//  color: white;
-//
-//}
 .contact-social .social1 li a.fa-instagram{
-  font-size: 1.7vw;
- }
+
+ font-size: 1.7vw;
+}
 .contact-social .social1 li a.fa-facebook{
-  font-size: 1.7vw;
- }
+
+ font-size: 1.7vw;
+}
 .contact-social .social1 li a.fa-youtube{
-  font-size:1.7vw;
+
+ font-size:1.7vw;
 }
 .contact-social .social1 li a.fa-envelope{
-  font-size: 1.7vw;
+
+ font-size: 1.7vw;
 }
 .contact-social .social1 li a.fa-twitter{
-  font-size: 1.7vw;
-}
 
-.mail {
-  width: 70px;
-  height: 72px;
-  margin-top: 7%;
-}
-.call {
-  width: 70px;
-  height: 72px;
-  margin-top: 7%;
-}
-.map1{
-  width:80px;
-  height:82px;
-  margin-top: 3%;
-}
-
-.box{
-  position: relative;
-  width: 200px;
-  height:100px;
-  box-sizing: border-box;
-  text-align: center;
-  overflow: hidden;
-  border-radius: 4px;
-  box-shadow: 0 0 0 2px white;
-  margin-top: 12%;
-}
-.icon{
-  width:100%;
-  height:100%;
-  background: transparent;
-  transition: 0.5s ease-in-out;
-}
-.icon .fas{
-  font-size: 3em;
-  color: $secondary-color;
-  line-height: 100px;
-}
-.box:hover .icon{
-  transform: scale(0);
-}
-.details1{
-  position: absolute;
-  top:0;
-  left:0;
-  height:100%;
-  width:100%;
-  background: $secondary-color;
-  transition: 0.5s;
-  transform: scale(2);
-  opacity: 0;
-}
-.details p{
-  line-height: 100px;
-}
-.box:hover .details1{
-  transform:scale(1);
-  opacity: 1;
-}
-//*xs*/
-@media (max-width: 767px) {
-  .contact-social .social1 li a{font-size: 60px}
-}
-
-/*sm*/
-@media (min-width: 768px) and (max-width: 991px) {
-  .contact-social .social1 li a{font-size: 50px}
-}
-
-/*md*/
-@media (min-width: 992px) and (max-width: 1199px) {
-  .contact-social .social1 li a{font-size: 40px}
-}
-@media (min-width:1200px) and (max-width: 1800px) {
-  .contact-social .social1 li a{font-size: 20px}
-}
-.map{
-  width:100%;
-  height: 400px;
+ font-size: 1.7vw;
 }
