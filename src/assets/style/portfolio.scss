@@ -83,8 +83,16 @@
   margin-right:auto;
   overflow: hidden;
  }
+.body{
+  background-color: #F4F2F5;
+}
 .image{
   width:400px;
   height:350px;
   border-radius: 100%;
+}
+#carousel-demo .carousel-inner{
+  border: 2px solid #191919;
+  box-shadow: 8px 8px 8px 8px;
+  //border-bottom: 2px solid #191919;
 }
