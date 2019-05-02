@@ -6,10 +6,12 @@
   margin-left: -2%;
   padding-right: 2%;
 }
-.videobtn ,videobtn:active{
-  position: absolute;
+.videobtn ,
+.videobtn:active{
+  position: relative;
   z-index: 50;
-  margin-left: -3.5%;
+  margin-right: auto;
+  margin-left: auto;
   background-color:#20fdc3 !important;
   text-align: center;
   cursor: pointer;
@@ -17,31 +19,6 @@
   //padding: 6px 12px;
   font-size: 14px;
   border-radius: 4px;
-}
-.bdaybtn{
-  position: absolute;
-  z-index: 50;
-  margin-left: -3.5%;
-  background-color: #e6e6ff;
-  text-align: center;
-  cursor: pointer;
-  font-size: 14px;
-  border-radius: 4px;
-  color: black;
-  border:1px solid transparent;
-}
-.bdaybtn:hover{
-
-  position: absolute;
-  z-index: 50;
-  margin-left: -3.5%;
-  background-color: #e6e6ff;
-  text-align: center;
-  cursor: pointer;
-  font-size: 14px;
-  border-radius: 4px;
-  color: black;
-  border:1px solid transparent;
 }
 .button:hover{
   color: #1A847A;
