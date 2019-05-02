@@ -1,4 +1,9 @@
+@import "../variables/_colors.scss";
 .scale:hover{
   transform: scale(1.3);
   transition: .2s ease-in;
+}
+.container3,
+.container-7{
+  background-color: $color-primary;
 }

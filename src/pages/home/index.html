@@ -127,7 +127,7 @@
             <div class="container1" data-aos="fade-up">
                 <div class="row" style="width: 100% ">
                     <div class="col-xs-11 col-md-10 col-centered">
-                        <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="5500">
+                        <div id="carousel" class="carousel slide" data-ride="carousel" data-type="multi" data-interval="3500">
                             <div class="carousel-inner" data-aos="fade-up">
                                 <div class="item active">
                                     <div class="carousel-col text-center">
@@ -191,7 +191,7 @@
 
 
 <!--Events starts here-->
-<div class="fg" style="background-color: #e6e6ff">
+<div class="fg">
   <i style="font-size: 50px;margin-left: 90%;background-color: transparent;" class="btn" onclick="shut() " id="shut">&times;</i>
     <div id="events">
         <div class="container8">
@@ -450,7 +450,7 @@
 </div>
 <!--Magazine starts here-->
 
-<div id = "magazines" style="background-color: #e6e6ff">
+<div id = "magazines">
   <div class="our-events1">
 <h1 style="text-align: center;color:#212121;margin-top: 0;margin-bottom: 2%;font-size: 40px;font-weight:500">MAGAZINES</h1>
 </div>
@@ -567,7 +567,7 @@
 
 <!--Mentors start here-->
 
-<div id="faculty" style="background-color: #F5F5F5">
+<div id="faculty">
     <i style="font-size: 50px;float: right;margin-right: 5%" class="btn" onclick="shut1() " id="shut1">&times;</i>
     <div class="container7">
         <div class="row" style="width: 100%">
@@ -614,7 +614,7 @@
 
 <!--SERVICES-->
 
-<div class="container3" id="services" style="background-color: #e6e6ff">
+<div class="container3" id="services">
     <div class="row" style="width: 100%;padding-left:13%">
         <div class="services-animation" data-aos="fade-down">
             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" style="margin-top: 3vh">
@@ -683,7 +683,7 @@
 
 <!--QUOTE-->
 
-<div class="container7" style="background-color: #e6e6ff">
+<div class="container7">
     <div class="row" style="width: 100%;padding-left: 5%">
         <div data-aos="fade-right">
             <h3 style="text-align: center;font-weight:500; margin-top: 4%; margin-bottom: 4%">
@@ -701,32 +701,24 @@
 <!--CONTACT US-->
 
 <section id="contact">
-    <div class="container7" style="background-color: #191919;">
+    <div class="container21">
         <div class="row" style="width: 100%" data-aos="fade-up">
             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4">
-                <h1 style="color: white;margin-bottom: 2vh;font-size:40px">
+                <h1 style="color: white;margin-bottom: 2vh;font-size:40px;margin-top: 5vh">
                     <b>Contact</b> Us
                 </h1>
-                <div class="col-12 col-sm-12 col-md-12"style="display: flex;padding-left:5%; ">
-                    <!--<div class="row" style="width: 100%">-->
-                        <!--<div class="col-12 col-sm-12 col-md-12 col-lg-12 my-4" style="margin-top:1vh">-->
+                <div class="col-12 col-sm-12 col-md-12"style="display: flex;padding-left:5%;margin-top: 5vh">
                     <div class="row" style="width:100%">
                     <div class="col-md-4" style="padding-left: 15%">
-                                <img src="./assets/images/map.png" class="img-responsive map" style="margin-top: 1vh">
+                        <img src="./assets/images/map.png" class="img-responsive map" style="margin-top: 1vh">
                                 <p style="color: #f4f2f5;font-size:20px">
                                     Ajay Kumar Garg Engineering College,
                                     27th Km milestone NH-24 Delhi-Hapur Bypass,
                                     Adhyatmik Nagar Ghaziabad.
                                 </p>
                     </div>
-                        <!--</div>-->
-                    <!--</div>-->
-
-                <!--<div class="col-8 col-sm-8 col-md-8">-->
-                    <!--<div class="row" style="width: 100%">-->
-                        <!--<div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" style="margin-top: 2vh">-->
                     <div class="col-md-4" style="padding-right: 2%;margin-top:2vh">
-                            <img src="./assets/images/mail1.png" class="img-responsive call">
+                            <img src="./assets/images/mail1.png" class="img-responsive map">
                             <p style="color: #f4f2f5;font-size:20px">
                                 conatus.akgec2016@gmail.com
                             </p>
@@ -772,9 +764,11 @@
 
 <div class="container9" id="dev_team">
     <div data-aos="fade-down">
-        <div class="row" style="width: 100%; padding-left: 20%; padding-right:10%; background: linear-gradient(to bottom, #2E2B38 0%, #282642 100%);">
+        <i style="font-size: 50px;float: right;margin-right: 5%" class="btn" onclick="shut2() " id="shut2">&times;</i>
+
+        <div class="row" style="width: 100%; padding-left: 20%; padding-right:10%;">
             <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4" style="margin-top: 2vh">
-                <h1 style="color:#F4F2F5; margin-bottom:3vh;margin-top: 5vh;margin-left: -10%;font-weight:500; font-size: 40px">
+                <h1 style="color:#212121; margin-bottom:3vh;margin-top: 5vh;margin-left: -10%;font-weight:500; font-size: 40px">
                     Development Team
                 </h1>
             </div>
@@ -906,6 +900,10 @@
     }
     function shut1(){
         document.getElementById('faculty').style.display = 'none';
+        document.getElementById('shut1').style.display = 'none';
+    }
+    function shut2(){
+        document.getElementById('dev_team').style.display = 'none';
         document.getElementById('shut1').style.display = 'none';
     }
     function dis(){

@@ -11,8 +11,12 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-
-
+.fg{
+  background-color: $color-primary;
+}
+#magazines{
+  background-color: $color-primary;
+}
 
 
 
@@ -91,5 +95,6 @@
   height:350px;
 }
 #carousel-demo .carousel-inner{
-  box-shadow: 5px 5px 5px 5px;
+  box-shadow: 0 0 6px 3px grey;
+  animation: animateleft 3s;
 }
