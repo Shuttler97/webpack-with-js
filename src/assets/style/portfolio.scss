@@ -36,7 +36,9 @@
 .portfolio1 p{
   font-size: 20px
 }
-
+.item{
+  margin-top: 2%;
+}
 
 .col-centered {
   float: none;
@@ -97,9 +99,18 @@
 }
 .image{
   width:400px;
+  margin-bottom: 2.6vh;
   height:350px;
 }
 #carousel-demo .carousel-inner{
   box-shadow: 0 0 18px 8px  #d1d1ff;
   animation: animateleft 3s;
+  margin-bottom: 5vh;
+}
+.container1 .our-events1 h1{
+  color: #212121;
+  margin-bottom: 3%;
+  font-size: 40px;
+  font-weight:500;
+  margin-top:-1%;
 }
