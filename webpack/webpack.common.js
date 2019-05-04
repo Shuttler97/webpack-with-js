@@ -52,6 +52,14 @@ module.exports = {
             {
                 test: /\.(s*)css$/,
                 use: ['style-loader', 'css-loader', 'sass-loader']
+            },
+            {
+                test: /\.(ttf)$/,
+                loader: 'url-loader',
+                options: {
+                    limit: 4096,
+                    name: './fonts/[name].[ext]?[hash]', // was '/fonts/[name].[ext]?[hash]',
+                },
             }
         ]
     }

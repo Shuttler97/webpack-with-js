@@ -17,9 +17,25 @@
 #magazines{
   background-color: $color-primary;
 }
-
-
-
+.carousel-col img{
+  cursor: pointer;
+}
+.carousel-col h3{
+  font-size: 24px;
+  font-weight:500;
+}
+.carousel-col p{
+  font-size:16px;
+}
+.portfolio1 h1{
+  color: #212121;
+  font-size: 40px;
+  font-weight:500;
+  text-align: center;
+}
+.portfolio1 p{
+  font-size: 20px
+}
 
 
 .col-centered {
@@ -70,17 +86,6 @@
   transform: scale(1.1);
   transition: 0.5s ease-in;
 }
-//.portfolio1:before {
-//  position: relative;
-//  top: .1em;
-//  display: block;
-//  width: 20%;
-//  max-width: 100px;
-//  height: 4px;
-//  margin-left:47%;
-//  content: '';
-//  background-color: #20fdc3;
-//}
 
 .img-responsive{
   margin-left:auto;
@@ -95,6 +100,6 @@
   height:350px;
 }
 #carousel-demo .carousel-inner{
-  box-shadow: 0 0 6px 3px grey;
+  box-shadow: 0 0 18px 8px  #d1d1ff;
   animation: animateleft 3s;
 }

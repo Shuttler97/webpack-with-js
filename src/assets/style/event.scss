@@ -1,5 +1,5 @@
 //<====================events===============>
-@import "../../assets/variables/_colors.scss";
+@import "../variables/_colors.scss";
 .container8{
   position: relative!important;
   width: 100%;
@@ -54,7 +54,7 @@
   background:#ffffff;
   transition:0.5s;
   text-align:center;
-  line-height:50px;
+  line-height:45px;
   font-size:36px;
   box-shadow:0 0 0 0 #2c2942;
 }
@@ -96,14 +96,13 @@
   height:auto;
   margin-left: 0;
 }
-//.our-events1:before {
-//  position: relative;
-//  top: -2em;
-//  display: block;
-//  width: 20%;
-//  max-width: 100px;
-//  height: 4px;
-//  margin: auto;
-//  content: '';
-//  background-color: #20fdc3;
-//}
+.portfolio1:before {
+  position: relative;
+  display: block;
+  width: 20%;
+  max-width: 100px;
+  height: 4px;
+  margin: auto;
+  content: '';
+  background-color: #20fdc3;
+}
