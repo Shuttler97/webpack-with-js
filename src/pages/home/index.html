@@ -23,33 +23,6 @@
 </head>
 <body>
 
-<!--PRELOADER-->
-
-<div class="loading">
-    <div class="finger finger-1">
-        <div class="finger-item">
-            <span></span><i></i>
-        </div>
-    </div>
-    <div class="finger finger-2">
-        <div class="finger-item">
-            <span></span><i></i>
-        </div>
-    </div>
-    <div class="finger finger-3">
-        <div class="finger-item">
-            <span></span><i></i>
-        </div>
-    </div>
-    <div class="finger finger-4">
-        <div class="finger-item">
-            <span></span><i></i>
-        </div>
-    </div>
-    <div class="last-finger">
-        <div class="last-finger-item"><i></i></div>
-    </div>
-</div>
 
 
 <!--SCROLL Button-->
@@ -62,9 +35,9 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">
-                <h1 class="navtxt">
+                <h2 class="navtxt">
                     TEAM CONATUS
-                </h1>
+                </h2>
             </a>
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onclick="openNav()">
                 <span class="icon-bar"></span>
@@ -85,11 +58,11 @@
                         <li><a href="#contact" onclick="closeNav()"><b>Contact Us</b></a></li><br>
                         <li><a href="#dev_team" onclick="dis()"><b>Development Team</b></a></li><br>
                         <div class="social-icons">
-                            <a href="https://www.facebook.com/conatus.akg/" class="fab fa-facebook"></a>
-                            <a href="https://twitter.com/conatus_akg" class="fab fa-twitter"></a>
-                            <a href="https://www.instagram.com/conatus.akg/" class="fab fa-instagram"></a>
-                            <a href="https://www.youtube.com/channel/UCx47CEF3DpgTrlbS502Q83Q" class="fab fa-youtube"></a>
-                            <a href="mailto:conatus.akgec2016@gmail.com" class="fa fa-envelope"></a>
+                            <a href="https://www.facebook.com/conatus.akg/" class="fab fa-facebook" target="_blank"></a>
+                            <a href="https://twitter.com/conatus_akg" class="fab fa-twitter" target="_blank"></a>
+                            <a href="https://www.instagram.com/conatus.akg/" class="fab fa-instagram" target="_blank"></a>
+                            <a href="https://www.youtube.com/channel/UCx47CEF3DpgTrlbS502Q83Q" class="fab fa-youtube" target="_blank"></a>
+                            <a href="mailto:conatus.akgec2016@gmail.com" class="fa fa-envelope" target="_blank"></a>
                         </div>
                     </ul>
                 </div>
@@ -105,32 +78,21 @@
             <div class="row alignCenter">
                 <div class="text-center col-12 col-sm-12 col-md-12 col-lg-12 my-4">
                     <div class="animate seven">
-                        <span>L</span><span>E</span><span>A</span><span>R</span><span>N</span> &nbsp;
-                        <span>I</span><span>M</span><span>P</span><span>R</span><span>O</span><span>V</span><span>I</span><span>S</span><span>E</span> &nbsp;
+                        <span>L</span><span>E</span><span>A</span><span>R</span><span>N</span>&nbsp;&nbsp;<span>|</span> &nbsp;&nbsp;
+                        <span>I</span><span>M</span><span>P</span><span>R</span><span>O</span><span>V</span><span>I</span><span>S</span><span>E</span>&nbsp;&nbsp;<span>|</span> &nbsp;
                         <span>G</span><span>R</span><span>O</span><span>W</span>&nbsp;
-                        <span>!!</span>
-                        <h1>
-                            <span>"The </span>
-                            <span> Only </span>
-                            <span> Constant </span>
-                            <span> In </span>
-                            <span> The </span>
-                            <span> Technology </span>
-                            <span> Industry </span>
-                            <span> Is </span>
-                            <span> Change" </span>
-                        </h1>
-
-                              <!--video button-->
-                        <div class="row align-center">
-                            <button type="button" class="btn-lg videobtn" data-toggle="modal" data-target="#myModal">Know More About Us</button>
-                            <div class="modal fade" id="myModal" role="dialog">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                            <iframe id="video1" width="600" height="500" src="http://www.youtube.com/embed/X9eRrHR5mHw?enablejsapi" frameborder="0" allowtransparency="true" allowfullscreen></iframe>
-                                        </div>
+                        <div class="typewriter" id="animation">
+                            <h1>Few ideas work on the first try. Iteration is key to innovation.</h1>
+                        </div>
+                    </div>
+                    <div class="row align-center">
+                        <button type="button" class="btn-lg videobtn" data-toggle="modal" data-target="#myModal"><b>Know More About Us</b></button>
+                        <div class="modal fade" id="myModal" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" id="button-animate">&times;</button>
+                                        <iframe id="video1" width="600" height="500" src="http://www.youtube.com/embed/X9eRrHR5mHw?enablejsapi" frameborder="0" allowtransparency="true" allowfullscreen></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -775,11 +737,11 @@
             <div class="col-12 col-sm-12 col-md-12 text-center" style="margin-bottom: 1vh">
                 <div class="contact-social">
                     <ul class="social1">
-                        <li><a href="https://www.facebook.com/conatus.akg/"  class="fab fa-facebook"></a></li>
-                        <li><a href="https://twitter.com/conatus_akg" class="fab fa-twitter"></a></li>
-                        <li><a href="https://www.instagram.com/conatus.akg/" class="fab fa-instagram"></a></li>
-                        <li><a href="https://www.youtube.com/channel/UCx47CEF3DpgTrlbS502Q83Q" class="fab fa-youtube"></a></li>
-                        <li><a href="mailto:conatus.akgec2016@gmail.com"  class="fa fa-envelope"></a></li>
+                        <li><a href="https://www.facebook.com/conatus.akg/" target="_blank" class="fab fa-facebook"></a></li>
+                        <li><a href="https://twitter.com/conatus_akg" target="_blank" class="fab fa-twitter"></a></li>
+                        <li><a href="https://www.instagram.com/conatus.akg/" target="_blank" class="fab fa-instagram"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCx47CEF3DpgTrlbS502Q83Q" target="_blank" class="fab fa-youtube"></a></li>
+                        <li><a href="mailto:conatus.akgec2016@gmail.com"  target="_blank" class="fa fa-envelope"></a></li>
                     </ul>
                 </div>
             </div>
@@ -961,6 +923,10 @@
     });
 </script>
 
-
+<script>
+    setTimeout(function(){
+        document.getElementById('animation').style.display = 'block';
+    },2000);
+</script>
 </body>
 </html>

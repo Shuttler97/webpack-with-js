@@ -274,7 +274,3 @@ $("#playvideo").click(function(){
 });
 
 
-// PRELOADER
- $(window).on('load',function () {
-     $('.loading')
- })
