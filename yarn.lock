@@ -2249,6 +2249,10 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
+lesshat@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/lesshat/-/lesshat-4.1.0.tgz#5a32dca36a5516569a486f8ed10dffff79d4c8e0"
+
 load-json-file@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/load-json-file/-/load-json-file-1.1.0.tgz#956905708d58b4bab4c2261b04f59f31c99374c0"

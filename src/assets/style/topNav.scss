@@ -105,7 +105,8 @@ $button-width: 35px;
 }
 .social-icons  a{
   color:white;
-  border:none;
+  font-size:35px;
+  letter-spacing: 2px;
 }
 .social-icons  a.fa-instagram:hover {
   background: $dark-pink;

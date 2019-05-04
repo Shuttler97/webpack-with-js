@@ -31,12 +31,14 @@
   width: 20px;
   position: relative;
   height: 20px;
-  line-height:30px ;
-  font-size: 2.5vw;
+  line-height:10px ;
+  font-size: 40px;
   border-radius: 4px;
+  margin-right: 20%;
+  margin-bottom: 10%;
   text-align: center;
   transition: all 0.3s ease-in-out 0s;
-  color: #F4F2F5;
+  color: white;
 }
 
 .contact-social .social1 li a:hover{
@@ -63,9 +65,7 @@
 
  font-size: 1.7vw;
 }
-.contact-social .social1 li a.fa-twitter:hover{
-  background-color: $light-blue;
-}
+
 .map{
   height:70px;
 }
@@ -109,4 +109,28 @@
   margin-bottom: 2vh;
   font-size:40px;
   margin-top: 5vh;
+}
+.contact-social .social1  a.fa-instagram:hover {
+  transform: scale(1.5);
+  transition:0.2s ease-in-out;
+
+}
+.contact-social .social1  a.fa-twitter:hover{
+  transform: scale(1.5);
+  transition:0.2s ease-in-out;
+
+}
+.contact-social .social1 a.fa-facebook:hover{
+  transform: scale(1.5);
+  transition:0.2s ease-in-out;
+
+}
+.contact-social .social1  a.fa-envelope:hover {
+  transform: scale(1.5);
+  transition:0.2s ease-in-out;
+
+}
+.contact-social .social1  a.fa-youtube:hover{
+  transform: scale(1.5);
+  transition:0.2s ease-in-out;
 }

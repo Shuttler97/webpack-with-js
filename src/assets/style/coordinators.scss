@@ -121,7 +121,6 @@
 
 .our-teams .social li a:hover{
   color: white;
-
 }
 .our-teams .social li a.fa-instagram{
   font-size: 25px;
@@ -205,6 +204,8 @@
    width:80px;
    height:80px;
    background: $main-color;
+   animation-delay:2s;
+   animation-duration: 12s;
  }
  .background-bubbles li:nth-child(2){
      background: $main-color;
@@ -219,7 +220,7 @@
      background: $main-color;
    width:20px;
    height:20px;
-   animation-delay:4s;
+   animation-delay:15s;
  }
  .background-bubbles li:nth-child(4){
    left:40%;
@@ -227,7 +228,7 @@
    width:60px;
    height:60px;
    animation-delay:0s;
-   animation-duration: 18s;
+   animation-duration: 21s;
  }
  .background-bubbles li:nth-child(5){
    left:65%;
@@ -264,7 +265,7 @@
    background: $coordinators-color;
    height:15px;
    animation-delay:2s;
-   animation-duration: 12s;
+   animation-duration: 18s;
  }
  .background-bubbles li:nth-child(10){
    left:85%;
@@ -272,7 +273,7 @@
    width:150px;
    height:150px;
    animation-delay:0s;
-   animation-duration: 11s;
+   animation-duration: 18s;
  }
  .background-bubbles li:nth-child(11){
    left:0;
@@ -280,7 +281,7 @@
    width:100px;
    height:100px;
    animation-delay:0s;
-   animation-duration: 11s;
+   animation-duration: 25s;
  }
 .background-bubbles li:nth-child(12){
   left:10%;
@@ -288,7 +289,7 @@
   width:120px;
   height:120px;
   animation-delay:2s;
-  animation-duration: 19s;
+  animation-duration: 40s;
 }
 .background-bubbles li:nth-child(13){
   left:25%;
@@ -312,7 +313,7 @@
   width:70px;
   height:70px;
   animation-delay:8s;
-  animation-duration: 15s;
+  animation-duration: 35s;
 }
 .background-bubbles li:nth-child(16){
   left:45%;
@@ -326,7 +327,7 @@
   width:60px;
   height:60px;
   animation-delay:2s;
-  animation-duration: 12s;
+  animation-duration: 22s;
 }
 .background-bubbles li:nth-child(18){
   left:72%;
@@ -341,7 +342,7 @@
   width:70px;
   height:70px;
   animation-delay:0s;
-  animation-duration: 18s;
+  animation-duration: 38s;
 }
 .background-bubbles li:nth-child(20){
   left:20%;
@@ -378,7 +379,7 @@
   background: $coordinators-color;
   height:10px;
   animation-delay:2s;
-  animation-duration: 12s;
+  animation-duration: 32s;
 }
 .background-bubbles li:nth-child(25){
   left:75%;
@@ -386,7 +387,7 @@
   width:110px;
   height:110px;
   animation-delay:0s;
-  animation-duration: 11s;
+  animation-duration: 41s;
 }
  @keyframes animatedown{
    0%{
